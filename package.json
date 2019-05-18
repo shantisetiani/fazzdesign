@@ -5,7 +5,7 @@
     "react-dom": "^16.8.6"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 4000",
     "now-build": "next build"
   }
 }

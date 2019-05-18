@@ -7,15 +7,16 @@ class Homepage extends Component {
   render() {
     return (
       <Site 
-        title="PAYFAZZ - Agen Pulsa dan Bisnis PPOB Termurah dan Lengkap"
-        description="Description PayrollBirdBisnis PPOB (Payment Point Online Bank) serta Agen Pulsa di PAYFAZZ bisa menjadikan Kamu Jutawan dengan layanan yang lengkap dan harga murah!"
+        isHome={true}
+        title="FAZZDESIGN - Design System"
+        description="Design Sistem"
       >
         <div className="flex home-hero">
           <div className="home-hero__text">
             <h3 className="ls-2">FAZZ DESIGN FOUNDATAION</h3>
             <h1>Building empowering style guides with practical research</h1>
           </div>
-          <img src="/static/images/home-hero.png" loading="lazy" alt="home-hero" />
+          <img src="/static/images/home-hero.svg" loading="lazy" alt="home-hero" />
         </div>
 
         <div className="flex flex--space-between home-category">

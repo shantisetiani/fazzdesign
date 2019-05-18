@@ -19,7 +19,7 @@ class Site extends Component {
         {/* <SiteHeader /> */}
         <main className="flex fazz-main">
           <SiteSidebar />
-          <div className="fazz-content fazz-content--home">
+          <div className={`fazz-content ${this.props.isHome ? 'fazz-content--home' : null} }`}>
             {this.props.children}
           </div>
         </main>
@@ -30,10 +30,12 @@ class Site extends Component {
 
 Site.defaultProps = {
   title: 'Site title',
+  isHome: false,
 }
 
 Site.propTypes = {
   title: PropTypes.string,
+  isHome: PropTypes.bool,
 }
 
 export default Site
