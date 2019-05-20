@@ -97,6 +97,54 @@ class Typography extends Component {
             <li>Meanwhile, we use white as color for component or text in dark background.</li>
           </ul>
 
+
+          <ul className="font-size">
+            <li>
+              <h3>FazzDesign</h3>
+              <span className="fs-14">48px — Roboto Regular — H3 Headline</span>
+            </li>
+            <li>
+              <h4>FazzDesign</h4>
+              <span className="fs-14">32px — Roboto Regular — H4 Headline</span>
+            </li>
+            <li>
+              <h5>FazzDesign</h5>
+              <span className="fs-14">24px — Roboto Regular — H5 Headline</span>
+            </li>
+            <li>
+              <h4><strong>FazzDesign</strong></h4>
+              <span className="fs-14">20px — Roboto Bold — H6 Headline</span>
+            </li>
+            <li>
+              <h4>FazzDesign</h4>
+              <span className="fs-14">16px — Roboto Regular — Subtitle 1</span>
+            </li>
+            <li>
+              <p className="fs-14"><strong>FazzDesign</strong></p>
+              <span className="fs-14">14px — Roboto Bold — Subtitle 2</span>
+            </li>
+            <li>
+              <p className="fs-16">FazzDesign</p>
+              <span>16px — Roboto Regular — Body 1</span>
+            </li>
+            <li>
+              <p className="fs-14"><strong>FazzDesign</strong></p>
+              <span className="fs-14">14px — Roboto Regular — Body 2</span>
+            </li>
+            <li>
+              <p className="fs-14"><strong>FazzDesign</strong></p>
+              <span className="fs-14">14px CAPS — Roboto Bold — Button</span>
+            </li>
+            <li>
+              <p className="fs-12">FazzDesign</p>
+              <span className="fs-12">12px — Roboto Regular — Caption</span>
+            </li>
+            <li>
+              <p className="fs-10"><strong>FazzDesign</strong></p>
+              <span className="fs-12">10px CAPS — Roboto Regular — Overline</span>
+            </li>
+          </ul>
+
         </article>
       </Site>
     )
