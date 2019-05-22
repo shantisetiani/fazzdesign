@@ -13,6 +13,7 @@ class SiteSidebar extends Component {
             <ul className="fazz-aside__sub-menu">
               <li className="active"><Link href="/foundation"><a>Color</a></Link></li>
               <li><Link href="/foundation/typography"><a>Typography</a></Link></li>
+              <li><Link href="/foundation/layout"><a>Layout</a></Link></li>
             </ul>
           </li>
           <li><Link href="/atom"><a>Atom</a></Link></li>
