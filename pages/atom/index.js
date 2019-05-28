@@ -11,7 +11,7 @@ class Atom extends Component {
         title="Atom - FazzDesign"
         description="Design Sistem"
       >
-        <article>
+        <article className="article article--container">
           <h4 className="ls-2">ATOM</h4>
           <h1 className="content-title">Colors</h1>
           

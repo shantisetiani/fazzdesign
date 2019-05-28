@@ -16,7 +16,22 @@ class SiteSidebar extends Component {
               <li><Link href="/foundation/layout"><a>Layout</a></Link></li>
             </ul>
           </li>
-          <li><Link href="/atom"><a>Atom</a></Link></li>
+          <li>
+            <Link href="/atom"><a>Atom</a></Link>
+            <ul className="fazz-aside__sub-menu">
+              <li><Link href="/atom/button"><a>Button</a></Link></li>
+              <li><Link href="/atom/tab"><a>Tab</a></Link></li>
+              <li><Link href="/atom/input"><a>Input</a></Link></li>
+              <li><Link href="/atom/"><a>Label</a></Link></li>
+              <li><Link href="/atom/"><a>List</a></Link></li>
+              <li><Link href="/atom/card"><a>Card</a></Link></li>
+              <li><Link href="/atom/"><a>App Bar</a></Link></li>
+              <li><Link href="/atom/"><a>Bottom Bar</a></Link></li>
+              <li><Link href="/atom/snackbar"><a>Snackbar</a></Link></li>
+              <li><Link href="/atom/bottom-sheet"><a>Bottom Sheet</a></Link></li>
+              <li><Link href="/atom/progress"><a>Progress</a></Link></li>
+            </ul>
+          </li>
           <li><Link href="/composite"><a>Composite</a></Link></li>
         </ul>
       </aside>
