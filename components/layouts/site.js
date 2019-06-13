@@ -7,6 +7,21 @@ import SiteHeader from './site-header'
 import SiteSidebar from './site-sidebar'
 
 class Site extends Component {
+  showOverlay = () => {
+    const navMenu = document.querySelector('.overlay')
+    navMenu.classList.toggle('show')
+  }
+  hideOverlay = () => {
+    const navMenu = document.querySelector('.overlay')
+    navMenu.classList.remove('show')
+  }
+
+  closeMenu = () => {
+    const sideBar = new SiteSidebar();
+    sideBar.closeSidebar();
+    this.hideOverlay();
+  }
+
   render() {
     return (
       <div className="fazz-site">
@@ -16,12 +31,13 @@ class Site extends Component {
           url={this.props.url}
           ogImage={this.props.ogImage}
         />
-        {/* <SiteHeader /> */}
+        <SiteHeader />
         <main className="flex fazz-main">
           <SiteSidebar />
           <div className={`fazz-content ${this.props.isHome ? 'fazz-content--home' : null} }`}>
             {this.props.children}
           </div>
+          <div className="overlay" onClick={ this.closeMenu }></div>
         </main>
       </div>
     )

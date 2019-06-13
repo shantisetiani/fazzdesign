@@ -70,7 +70,7 @@ class Style extends Component {
           <p>
             Floating filled button just using text
           </p>
-          <img src="/static/images/tab-style-4.png" />
+          <img src="/static/images/tab-style-4.png" style={{ marginBottom: '20px' }} />
           <p>
             Floating filled button custom with text and icon
           </p>

@@ -2,6 +2,15 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 
 class SiteSidebar extends Component {
+  openSidebar = () => {
+    const navMenu = document.querySelector('.fazz-aside')
+    navMenu.classList.toggle('open')
+  }
+  closeSidebar = () => {
+    const navMenu = document.querySelector('.fazz-aside')
+    navMenu.classList.remove('open')
+  }
+
   render() {
     return (
       <aside className="fazz-aside">
@@ -13,7 +22,10 @@ class SiteSidebar extends Component {
             <ul className="fazz-aside__sub-menu">
               <li className="active"><Link href="/foundation"><a>Color</a></Link></li>
               <li><Link href="/foundation/typography"><a>Typography</a></Link></li>
+              <li><Link href="/foundation/icon"><a>Icon</a></Link></li>
+              <li><Link href="/foundation/illustration"><a>Illustration</a></Link></li>
               <li><Link href="/foundation/layout"><a>Layout</a></Link></li>
+              <li><Link href="/foundation/writing"><a>Writing Tone & Style</a></Link></li>
             </ul>
           </li>
           <li>

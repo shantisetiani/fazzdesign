@@ -11,25 +11,25 @@ class Style extends Component {
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
           <div style={{ marginLeft: '20px' }}>
-            <img src="/static/images/anatomy-bottom-sheet-1.png" />
+            <img src="/static/images/anatomy-bottom-sheet-1@2x.png" />
           </div>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>b. Scale</h3>
           <div style={{ marginLeft: '20px' }}>
             <p>
               Full screen size 640. For high bottom sheet max size 90% from screen and for low bottom sheet 25% from full screen size. 
             </p>
-            <img src="/static/images/scale-bottom-sheet-1.png" />
+            <img src="/static/images/scale-bottom-sheet-1@2x.png" />
           </div>
         </div>
         <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '40px' }}>Bottom Sheet</h2>
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
           <div style={{ marginLeft: '20px' }}>
-            <img src="/static/images/anatomy-bottom-sheet-2.png" />
+            <img src="/static/images/anatomy-bottom-sheet-2@2x.png" />
           </div>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>b. Scale</h3>
             <div style={{ marginLeft: '20px' }}>
-            <img src="/static/images/scale-bottom-sheet-2.png" />
+            <img src="/static/images/scale-bottom-sheet-2@2x.png" />
           </div>
         </div>
         <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Composite Usecase</h2>
@@ -40,21 +40,21 @@ class Style extends Component {
             <p>
               This bottom sheet is used when user add new files on the same page.
             </p>
-            <img src="/static/images/bottom-sheet-add-file.png" />
+            <img src="/static/images/bottom-sheet-add-file@2x.png" />
           </div>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>b. Bottom sheet to input a form</h3>
           <div style={{ marginLeft: '20px' }}>
             <p>
               This bottom sheet is used when user input a form on a page. They are using hinted input, keypad, and button.
             </p>
-            <img src="/static/images/bottom-sheet-input.png" />
+            <img src="/static/images/bottom-sheet-input@2x.png" />
           </div>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>c. Button sheet to inform</h3>
           <div style={{ marginLeft: '20px' }}>
             <p>
               This bottom sheet is used to provide information and telling user to take action quickly. They are using header without separation, closing button, body copy, and button.
             </p>
-            <img src="/static/images/bottom-sheet-info.png" />
+            <img src="/static/images/bottom-sheet-info@2x.png" />
           </div>
         </div>
       </div>

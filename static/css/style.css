@@ -115,6 +115,8 @@ hr {
 
 .text-center { text-align: center; }
 
+.no-padding { padding: 0 !important; }
+
 /* row */
 .fazz-row:before, 
 .fazz-row:after {
@@ -145,6 +147,23 @@ hr {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+@media(max-width: 768px){
+  .fazz-row-mobile-2>[class^="fazz-col-"] {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .fazz-row-mobile-3>[class^="fazz-col-"] {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .fazz-row-mobile-4>[class^="fazz-col-"] {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
 }
 
 /* 4.3 col */
@@ -244,6 +263,23 @@ hr {
   max-width: 100%;
 }
 
+/* fazz-nav */
+.fazz-nav {
+  display: none;
+}
+
+@media(max-width: 992px){
+  .fazz-nav {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+}
+
 /* fazz-aside */
 .fazz-aside {
   width: 314px;
@@ -296,6 +332,79 @@ hr {
   background: #000000;
 }
 
+@media(max-width: 992px){
+  .fazz-aside{
+    background: #fff;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -30%;
+    bottom: 0;
+    width: 30%;
+    overflow-y: scroll;
+    transition:left 0.3s linear;
+  }
+  .fazz-aside.open {
+    left: 0;
+    transition:left 0.3s linear;
+  }
+
+  .fazz-nav__toogle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 0;
+    margin-left: 8px;
+  }
+  .fazz-nav__toogle span {
+    display: block;
+    height: 2px;
+    background: #000000;
+    width: 100%;
+  }
+  .fazz-nav__toogle span:after,
+  .fazz-nav__toogle span:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: #000000;
+    width: 100%;
+    bottom: 5px;
+  }
+  .fazz-nav__toogle span:before {
+    top: 50%;
+    width: 100%;
+  }
+  
+  .fazz-nav__brand{
+    position: relative;
+    top: 5px;
+    left: 24px;
+  }
+}
+
+@media(max-width: 768px){
+  .fazz-aside{
+    left: -50%;
+  }
+  .fazz-aside.open {
+    width: 50%;
+  }
+}
+
+@media(max-width: 425px){
+  .fazz-aside{
+    left: -75%;
+  }
+  .fazz-aside.open {
+    width: 75%;
+  }
+}
+
 /* .fazz-content */
 .fazz-content {
   padding: 50px;
@@ -326,6 +435,12 @@ hr {
 }
 .fazz-tabs__content {
   padding: 20px;
+}
+
+@media(max-width: 425px){
+  .fazz-tabs__tab {
+    margin-right: 12px;
+  }
 }
 
 
@@ -453,7 +568,7 @@ hr {
     padding-right: 100px;
   }
   .article__title {
-    margin-bottom: 130px;
+    margin-bottom: 50px;
   }
 }
 .article__tittle-menu {
@@ -980,4 +1095,114 @@ hr {
   border: 1px solid #3b8ef3;
   border-radius: 4px;
   padding: 16px;
+}
+
+/* Foundation - Illustration */
+.pallete-box{
+  width: 330px;
+  margin-left: 15px;
+}
+
+.pallete{
+  color: #fff;
+  padding-top: 69px;
+  padding-left: 16px;
+  height: 95px;
+}
+
+@media(max-width: 992px){
+  .pallete-box{
+    width: 255px;
+  }
+}
+
+@media(max-width: 768px){
+  .pallete-box{
+    width: 200px;
+  }
+  .pallete-box .fazz-col-4 { 
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .pallete-box .fazz-col-8 { 
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .pallete{
+    padding-left: 8px;
+    font-size: 12px;
+  }
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+.overlay.show{
+  display: block;
+}
+
+/* Iconography */
+.icon-box {
+  width: 100%;
+  height: 186px;
+  border: solid 1px #e5e5e5;
+}
+.icon-box span,
+.icon-box > svg {
+  position: relative;
+  top: 20%;
+  font-size: 38px;
+}
+.icon-box > svg {
+  top: 40%;
+}
+.icon-box__caption {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.icon-group {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border: solid 1px #e5e5e5;
+  padding: 34px 47px;
+  overflow-wrap: break-word;
+  margin-top: 20px;
+}
+.icon-group .total-icon {
+  border-radius: 15px;
+  background-color: #f2f4f5;
+  font-size: 9px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.icon-group-title-box {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #333333;
+  color: #fff;
+  padding: 12px 16px;
+}
+.icon-group > [class^="icon-"] {
+  margin-right: 8px;
+  line-height: 2;
+}
+.icon-group-title-box span{
+  float: right;
+  color: #3a8ff3;
+  cursor: pointer;
 }
