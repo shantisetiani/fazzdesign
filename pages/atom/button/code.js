@@ -80,7 +80,7 @@ class Code extends Component {
           </div>
         </div>
         <hr /> */}
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Filled Button</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Filled Button</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>

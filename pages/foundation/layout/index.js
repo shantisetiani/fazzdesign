@@ -19,7 +19,7 @@ class Layout extends Component {
           <p>
             Fazz Design are used to consistently apply margin and padding across components and UIs. having a set spacing scale make same rhythm to the product across the UI
           </p>
-          <h2 className="article__tittle-menu"><strong>Spacing</strong></h2>
+          <h2 className="article__title-menu"><strong>Spacing</strong></h2>
 
           <p>
             Component Scale  =  Used for smaller component like between small component with small component or small component with text input

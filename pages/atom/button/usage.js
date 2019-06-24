@@ -7,7 +7,7 @@ class Usage extends Component {
                 <p>
                     Button merupakan elemen yang digunakan sebagai simbol dari sebuah action yang akan terjadi apabila user berinteraksi dengan button tersebut. Button digunakan untuk menginisiasi sebuah action.
                 </p>
-                <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Filled Button</h2>
+                <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Filled Button</h2>
                 <p>
                     Filled buttons are used when the user meets an action that contains high priority. We use three types of a filled button: filled button with white panel container, floating filled button and custom filled button.
                 </p>
@@ -29,7 +29,7 @@ class Usage extends Component {
                         <button type="button" className="btn-primary fs-28" style={{ width: '640px', height: '88px', boxShadow: '0 2px 8px 0 rgba(0, 0, 0, 0.2)' }}><strong>TEXT HERE</strong></button>
                     </div>
                 </div>
-                <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Line Button</h2>
+                <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Line Button</h2>
                 <p>
                     We use basic colors as subtle backgrounds to indicate various interactive states such as borders, inactive or disabled, or simply to create secondary attention towards a component. You'll find basic colors in buttons, text fields, and background.
                 </p>
@@ -40,7 +40,7 @@ class Usage extends Component {
                         </div>
                     </div>
                 </div>
-                <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Text Button</h2>
+                <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Text Button</h2>
                 <p>
                     Text buttons are used when the user meets an action that contains medium priority and to differentiate nude button and filled button. Use for general actions and special cases. This button consists of two forms, button with container and button without container.
                 </p>

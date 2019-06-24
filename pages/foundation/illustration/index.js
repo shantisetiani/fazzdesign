@@ -16,13 +16,13 @@ class Illustration extends Component {
           <h4 className="article__before-title ls-2">Foundation</h4>
           <h1 className="article__title">Illustration</h1>
           
-          <div className="article__tittle-menu">Rule of Illustration</div>
-          <p style={{ marginTop: '16px', marginBottom: '40px' }}>
+          <div className="article__title-menu">Rule of Illustration</div>
+          <p>
             Illustration is a key element of the brand system. It represents our brand - personality, voice, and platform 
             in an efficient and clear way. Just like the written word, illustrations exist to tell stories and thoughtfully convey 
             ideas - they should not be used as decoration or without consideration.
           </p>
-          <div style={{ fontSize: '24px', marginBottom: '20px' }}>Illustration Principle</div>
+          <div className="illustration__title">Illustration Principle</div>
           <div className="fw-500">• Simple is better</div>
           <p style={{ marginBottom: '40px' }}>
             Our illustration style is slightly fantastical, we reinforce the real-life nature of teamwork throughdiverspective and depth, but still we keep it simple and eye-pleasing.
@@ -37,7 +37,7 @@ class Illustration extends Component {
             We use curvilinear shapes, plenty of white space, and balanced color ratios to ensure that the scene never feels too chaotic. The illustrations are almost coming up to support copy, and should never distract or overshadow the key message.
           </p>
 
-          <div style={{ fontSize: '24px', marginTop: '45px', marginBottom: '20px' }}>Type of Illustration</div>
+          <div className="illustration__title">Type of Illustration</div>
           <p>We use basic colors as subtle backgrounds to indicate various interactive states such as borders, inactive or disabled, or simply to create secondary attention towards a component. You'll find basic colors in buttons, text fields, and background.</p>
           <p>Payfazz’s illustrations can be devided into several categories :</p>
           <div className="fw-500">• Still</div>
@@ -53,8 +53,8 @@ class Illustration extends Component {
             This category has different stories to tell, more things we tried to tell. Mostly, this category is for triggering user to follow an instruction or and action. 
           </p>
 
-          <div style={{ fontSize: '24px', marginTop: '60px', marginBottom: '20px' }}>The Illustration Guideline</div>
-          <div className="article__tittle-menu" style={{ marginBottom: '16px' }}>Color Palette</div>
+          <div className="illustration__title">The Illustration Guideline</div>
+          <div className="article__title-menu" style={{ marginTop: '0', marginBottom: '16px' }}>Color Palette</div>
           <p>We use basic colors as subtle backgrounds to indicate various interactive states such as borders, inactive or disabled, or simply to create secondary attention towards a component. You'll find basic colors in buttons, text fields, and background.</p>
           <div style={{ marginTop: '50px' }}>
             <p style={{ marginBottom: "24px" }}>Greyscale Colors</p>
@@ -73,7 +73,7 @@ class Illustration extends Component {
               </div>
             </div>
           </div>
-          <div className="fazz-row" style={{ marginBottom: '110px' }}>
+          <div className="fazz-row" style={{ marginBottom: '60px' }}>
             <div className="fazz-col">
               <p style={{ marginTop: '50px', marginBottom: "24px" }}>Primary Colors</p>
               <div className="pallete-box">
@@ -116,31 +116,31 @@ class Illustration extends Component {
             </div>
           </div>
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Figure Detail</div>
+          <div className="illustration__title"><strong>Figure Detail</strong></div>
           <p>Close up</p>
-          <img src="/static/images/ilustration-1@2x.png" style={{ marginTop: '20px', marginBottom: '100px' }} />
+          <img src="/static/images/ilustration-1@2x.png" className="article__img" style={{ maxWidth: '940px' }} />
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Figure Detail</div>
+          <div className="illustration__title"><strong>Figure Detail</strong></div>
           <p>Full body</p>
-          <img src="/static/images/ilustration-fullbody-1@2x.png" style={{ marginTop: '20px', marginBottom: '60px' }} />
+          <img src="/static/images/ilustration-fullbody-1@2x.png" className="article__img" style={{ maxWidth: '883px' }} />
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Background Detail</div>
+          <div className="illustration__title"><strong>Background Detail</strong></div>
           <p>
             Free curvilinear forms are used as all illustration backgrounds. The purpose is to make the viewers see the main characters as the prime focus of the illustration. It is also possible to add some additional details to the background to make the illustration look more appealing.
           </p>
-          <img src="/static/images/background-detail@2x.png" style={{ marginTop: '20px', marginBottom: '100px' }} />
+          <img src="/static/images/background-detail.svg" className="article__img" style={{ maxWidth: '652px' }} />
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Supporting Element Detail</div>
+          <div className="illustration__title"><strong>Supporting Element Detail</strong></div>
           <p>Along the way with background, the supoorting elements are put curvilinear free as well. It is makes the detail over the background for a lively result of illustration. Make sure to decrease the opacity to avoid unbalanced color.</p>
-          <img src="/static/images/supporting-elemnt-detail@2.png" style={{ marginTop: '20px', marginBottom: '100px' }} />
+          <img src="/static/images/supporting-element-detail.svg" className="article__img" style={{ maxWidth: '548px' }} />
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Character Detail - Male</div>
+          <div className="illustration__title"><strong>Character Detail - Male</strong></div>
           <p>The angle of character’s faces are made by different angle, mostly from ¾ angle to showed more shadow. Basically, the male character has a big hair and or big beard. These various type of faces are develop diversity among each character and make them are different one and other.</p>
-          <img src="/static/images/character-detail-male@2x.png" style={{ marginTop: '20px', marginBottom: '100px' }} />
+          <img src="/static/images/character-detail-male@2x.png" className="article__img" style={{ maxWidth: '671px' }} />
 
-          <div className="article__tittle-menu" style={{ marginBottom: '20px' }}>Character Detail - Female</div>
+          <div className="illustration__title"><strong>Character Detail - Female</strong></div>
           <p>We put so much fun to make the female character. It has big-wavie-long hair, mostly. The angle of faces depend on the character situation. We are care about diversity, which mean the each character we made are so different, but still looked lively and pretty.</p>
-          <img src="/static/images/character-detail-female@2x.png" style={{ marginTop: '20px' }} />
+          <img src="/static/images/character-detail-female@2x.png" className="article__img" style={{ maxWidth: '926px' }} />
         </article>
       </Site>
     )

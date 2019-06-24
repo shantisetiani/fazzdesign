@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu" style={{ marginBottom: '20px' }}>Hinted input</h2>
+        <h2 className="article__title-menu" style={{ marginBottom: '20px' }}>Hinted input</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
@@ -54,7 +54,7 @@ class Style extends Component {
             </div>
           </div>
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '143px', marginBottom: '20px' }}>Usecase</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '143px', marginBottom: '20px' }}>Usecase</h2>
         <div style={{ marginLeft: '20px' }}>
           <p>Another case of hinted input</p>
           <div style={{ marginLeft: '20px' }}>

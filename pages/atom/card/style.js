@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu">General Card</h2>
+        <h2 className="article__title-menu">General Card</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla orci, ultricies a felis sit amet, molestie vestibulum ipsum. Mauris ut rhoncus diam. Phasellus sit amet tincidunt risus
         </p>

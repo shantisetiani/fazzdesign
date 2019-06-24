@@ -32,9 +32,9 @@ const SiteMeta = props => (
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Roboto:300,400,500" rel="stylesheet" />
-    <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="/static/css/icons.css" />
     <link rel="stylesheet" href="/static/css/fontello.css" />
+    <link rel="stylesheet" href="/static/css/style.css" />
   </Head>
 )
 

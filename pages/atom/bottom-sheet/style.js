@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu" style={{ marginBottom: '20px' }}>Bottom Sheet - Close Header</h2>
+        <h2 className="article__title-menu" style={{ marginBottom: '20px' }}>Bottom Sheet - Close Header</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla orci, ultricies a felis sit amet, molestie vestibulum ipsum. Mauris ut rhoncus diam. Phasellus sit amet tincidunt risus
         </p>
@@ -21,7 +21,7 @@ class Style extends Component {
             <img src="/static/images/scale-bottom-sheet-1@2x.png" />
           </div>
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '40px' }}>Bottom Sheet</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '40px' }}>Bottom Sheet</h2>
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
           <div style={{ marginLeft: '20px' }}>
@@ -32,7 +32,7 @@ class Style extends Component {
             <img src="/static/images/scale-bottom-sheet-2@2x.png" />
           </div>
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Composite Usecase</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Composite Usecase</h2>
         <p>The following is a combination of bottom sheet with other components</p>
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Bottom sheet to add new file </h3>

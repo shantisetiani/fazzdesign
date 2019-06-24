@@ -34,7 +34,7 @@ class Site extends Component {
         <SiteHeader />
         <main className="flex fazz-main">
           <SiteSidebar />
-          <div className={`fazz-content ${this.props.isHome ? 'fazz-content--home' : null} }`}>
+          <div className={`fazz-content ${this.props.isHome ? 'fazz-content--home' : ''}`}>
             {this.props.children}
           </div>
           <div className="overlay" onClick={ this.closeMenu }></div>

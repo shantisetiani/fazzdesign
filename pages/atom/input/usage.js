@@ -7,7 +7,7 @@ class Usage extends Component {
                 <p>
                     Inputs are elements used to help the user input data. They have a progress bar when the user is required to fill in more than three inputs.
                 </p>
-                <h2 className="article__tittle-menu" style={{ marginTop: '20px', marginBottom: '17px' }}>Hinted input</h2>
+                <h2 className="article__title-menu" style={{ marginTop: '20px', marginBottom: '17px' }}>Hinted input</h2>
                 <p>
                     Hinted inputs are input that uses a label at the top of page.
                 </p>

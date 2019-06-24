@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu">Progress Stepper</h2>
+        <h2 className="article__title-menu">Progress Stepper</h2>
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
           <div style={{ marginLeft: '20px' }}>
@@ -18,7 +18,7 @@ class Style extends Component {
             <img src="/static/images/scale-progress-stepper@2x.png" />
           </div>
         </div>
-        <h2 className="article__tittle-menu">Progress Bar</h2>
+        <h2 className="article__title-menu">Progress Bar</h2>
         <div style={{ marginLeft: '40px' }}>
           <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
           <div style={{ marginLeft: '20px' }}>

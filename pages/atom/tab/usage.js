@@ -12,7 +12,7 @@ class Usage extends Component {
                     Bold (Caps lock)<br />
                     16
                 </div>
-                <h2 className="article__tittle-menu" style={{ marginBottom: '17px' }}>Tab in Navigation</h2>
+                <h2 className="article__title-menu" style={{ marginBottom: '17px' }}>Tab in Navigation</h2>
                 <p>
                     Tabs are elements used to organize a group of content that has similar contexts. They are also used to navigate information without changing a screen.
                 </p>
@@ -23,7 +23,7 @@ class Usage extends Component {
                     </p>
                     <img src="/static/images/tab-usage-1.png" />
                 </div>
-                <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>General Tabs</h2>
+                <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>General Tabs</h2>
                 <p>
                     General tab is a tab that is outside navigation bar and organizes the content inside.
                 </p>

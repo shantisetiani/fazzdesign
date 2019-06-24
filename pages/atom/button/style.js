@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu">Filled Button</h2>
+        <h2 className="article__title-menu">Filled Button</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
@@ -64,7 +64,7 @@ class Style extends Component {
           </p>
           <img src="/static/images/tab-style-4.png" />
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px' }}>Floating Fill Button</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px' }}>Floating Fill Button</h2>
         <div style={{ marginLeft: '60px' }}>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Anatomy</h3>
           <p>
@@ -92,7 +92,7 @@ class Style extends Component {
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Scale</h3>
           <img src="/static/images/tab-style-4.png" />
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '56px' }}>Line Button</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '56px' }}>Line Button</h2>
         <div style={{ marginLeft: '60px' }}>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Anatomy</h3>
           <p>
@@ -105,7 +105,7 @@ class Style extends Component {
           <p>Text and icon in button</p>
           <img src="/static/images/tab-style-4.png" />
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px' }}>Text Button</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px' }}>Text Button</h2>
         <div style={{ marginLeft: '60px' }}>
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Anatomy</h3>
           <p>
@@ -115,7 +115,7 @@ class Style extends Component {
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Scale</h3>
           <img src="/static/images/tab-style-4.png" />
         </div>
-        <h2 className="article__tittle-menu">Composite Usecase</h2>
+        <h2 className="article__title-menu">Composite Usecase</h2>
         <p>
           Rules :<br />
           1. When filled button white panel is stacked with line button above, elevation will be at the top.<br />

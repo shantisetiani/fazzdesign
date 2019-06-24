@@ -4,7 +4,7 @@ class Style extends Component {
   render() {
     return (
       <div style={{ marginTop: '40px' }}>
-        <h2 className="article__tittle-menu" style={{ marginBottom: '20px' }}>Tab in Navigation</h2>
+        <h2 className="article__title-menu" style={{ marginBottom: '20px' }}>Tab in Navigation</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
@@ -20,7 +20,7 @@ class Style extends Component {
           </p>
           <img src="/static/images/tab-style-2.png" />
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>General Tab</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>General Tab</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
@@ -38,7 +38,7 @@ class Style extends Component {
           </p>
           <img src="/static/images/tab-style-5.png" />
         </div>
-        <h2 className="article__tittle-menu" style={{ marginTop: '32px', marginBottom: '40px' }}>Composite Usecase</h2>
+        <h2 className="article__title-menu" style={{ marginTop: '32px', marginBottom: '40px' }}>Composite Usecase</h2>
         <div style={{ marginLeft: '60px' }}>
           <img src="/static/images/tab-style-6.png" />
           <img src="/static/images/tab-style-7.png" style={{ marginTop: '60px' }} />

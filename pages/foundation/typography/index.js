@@ -16,30 +16,14 @@ class Typography extends Component {
           <h4 className="article__before-title ls-2">Foundation</h4>
           <h1 className="article__title">Typography</h1>
           
-          <h2 className="article__tittle-menu"><strong>Typeface</strong></h2>
+          <h2 className="article__title-menu"><strong>Typeface</strong></h2>
           <p>
             Typography plays an important role in communicating an overall tone and quality. We selected Roboto and Montserrat as the corporate typefaces to reinforces our personality and ensures clarity and harmony in all PAYFAZZ communications
           </p>
-          <div className="font-design">
-            <div className="font-desing__text">FazzDesign</div>
-            <div className="font-design__line font-design__line--1"><span>Ascender</span></div>
-            <div className="font-design__line font-design__line--2"><span><strong>X Line</strong></span></div>
-            <div className="font-design__line font-design__line--3"><span><strong>Base Line</strong></span></div>
-            <div className="font-design__line font-design__line--4"><span>Descender</span></div>
-          </div>
+          <img src="/static/images/typeface-structure@2x.png" className="article__img font-design__img" style={{ maxWidth: '687px' }} />
+          <img src="/static/images/kind-typeface@2x.png" className="article__img font-example__img" style={{ maxWidth: '786px' }} />
 
-          <div className="font-example">
-            <div className="font-example__text">
-              ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
-              abcdefghijklmnopqrstuvwxyz<br/>
-              0123456789
-            </div>
-            <div className="font-example__footer">
-              Roboto
-            </div>
-          </div>
-
-          <h2 className="article__tittle-menu"><strong>Font Weight</strong></h2>
+          <h2 className="article__title-menu"><strong>Font Weight</strong></h2>
           <div className="font-weight">
             <div className="font-weight__item">
               <div className="font-weight__box">
@@ -61,7 +45,7 @@ class Typography extends Component {
             </div>
           </div>
 
-          <h2 className="article__tittle-menu"><strong>Font Condition</strong></h2>
+          <h2 className="article__title-menu"><strong>Font Condition</strong></h2>
           <p><strong>Usage</strong></p>
           <ul>
             <li>Body 1: Used for content on components—cards, lists, dialogs—containing main information, such as name dan description.</li>
@@ -70,22 +54,18 @@ class Typography extends Component {
             <li>Body 2 and secondary disabled: Used for texts on buttons and disabled text links.</li>
           </ul>
 
-          <div className="font-condition">
-            <div className="font-condition__item">
-              <div className="font-condition__box">
-                <strong>FazzDesign</strong>
-              </div>
-              Light Background
+          <div className="fazz-row font-condition">
+            <div className="fazz-col-6 text-center font-condition__box">
+              <img src="/static/images/light-background@2x.png" />
+              <span>Light Background</span>
             </div>
-            <div className="font-condition__item">
-              <div className="font-condition__box" style={{ backgroundColor: '#333333', color: '#f2f4f5'}}>
-                <strong>FazzDesign</strong>
-              </div>
-                Dark Background
+            <div className="fazz-col-6 text-center font-condition__box">
+              <img src="/static/images/dark-background@2x.png" />
+              <span>Dark Background</span>
             </div>
           </div>
 
-          <h2 className="article__tittle-menu"><strong>Font Sizes</strong></h2>
+          <h2 className="article__title-menu"><strong>Font Sizes</strong></h2>
           <p>
             We use Roboto as primary font in Android and Montserrat for graphic purpose Font scale is variated, from 12pt until 24pt. The following is font stack used in Android UI design 
           </p>
@@ -96,8 +76,7 @@ class Typography extends Component {
             <li>Black 54 used for secondary text, placeholder, hint, or disabled buttons.</li>
             <li>Meanwhile, we use white as color for component or text in dark background.</li>
           </ul>
-
-
+          
           <ul className="font-size">
             <li>
               <h3>FazzDesign</h3>
