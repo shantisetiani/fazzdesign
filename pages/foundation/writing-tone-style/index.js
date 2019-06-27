@@ -24,11 +24,15 @@ class Writing extends Component {
           <p style={{ marginBottom: '40px' }}>Use clear, to the point, and semi-formal sentences. Focus on user’s understanding and make content relevant. Use a maximum of 140 characters. Example: “Anda tidak memiliki riwayat transaksi. Ayo mulai transaksi sekarang!”</p>
           
           <div className="article__title-menu" style={{ marginBottom: '16px' }}>Helpful</div>
-          <p style={{ marginBottom: '74px' }}>Use familiar words. Use clear instructions to help user when doing something. Know user’s needs for every Fazz Family’s brand. Example: “Pesanan yang Anda cari tidak ditemukan. Ulangi pencarian dengan kata kunci yang berbeda.”</p>
+          <p style={{ marginBottom: '54px' }}>Use familiar words. Use clear instructions to help user when doing something. Know user’s needs for every Fazz Family’s brand. Example: “Pesanan yang Anda cari tidak ditemukan. Ulangi pencarian dengan kata kunci yang berbeda.”</p>
 
           <div className="fazz-row">
-            <div className="fazz-col"><img src="/static/images/writting-positif@2x.png" /></div>
-            <div className="fazz-col" style={{ marginLeft: '66px' }}><img src="/static/images/writting-negatif@2x.png" /></div>
+            <div className="fazz-col">
+              <img src="/static/images/writing/writing-positif@2x.png" className="article__img" style={{ maxWidth: '360px' }} />
+            </div>
+            <div className="fazz-col no-margin-mobile" style={{ marginLeft: '66px' }}>
+              <img src="/static/images/writing/writing-negatif@2x.png" className="article__img" style={{ maxWidth: '360px' }} />
+            </div>
           </div>
         </article>
       </Site>

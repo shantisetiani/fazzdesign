@@ -86,22 +86,26 @@ class Code extends Component {
         </p>
         <h3 style={{ marginTop: '20px', marginBottom: '20px' }}><strong>Filled Button White Panel</strong></h3>
         <img src="/static/images/tab-style-4.png" />
-        <div style={{ marginLeft: '40px' }}>
-          <div className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>
-            <h3>Android<span style={{ color: '#b620e0', float: 'right', cursor: 'pointer' }}>Copy</span></h3>
+        <div className="no-margin-mobile" style={{ marginLeft: '40px' }}>
+          <div className="code-title fw-500">
+            <h3>Android<span>Copy</span></h3>
           </div>
-          <div className="fazz-box-gray" style={{ width: '100%', padding: '40px', fontSize: '18px' }}>
-            {androidCode.replace(/ /g, "\u00a0").split('\n').map((item, key) => {
-              return <div key={key}>{item}</div>
-            })}
+          <div className="code-box">
+            <div className="code-box__text">
+              {androidCode.replace(/ /g, "\u00a0").split('\n').map((item, key) => {
+                return <div key={key}>{item}</div>
+              })}
+            </div>
           </div>
-          <div className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>
-            <h3>Flutter<span style={{ color: '#b620e0', float: 'right', cursor: 'pointer' }}>Copy</span></h3>
+          <div className="code-title fw-500">
+            <h3>Flutter<span>Copy</span></h3>
           </div>
-          <div className="fazz-box-gray" style={{ width: '100', padding: '40px', fontSize: '18px' }}>
-            {flutterCode.replace(/ /g, "\u00a0").split('\n').map((item, key) => {
-              return <div key={key}>{item}</div>
-            })}
+          <div className="code-box">
+            <div className="code-box__text">
+              {flutterCode.replace(/ /g, "\u00a0").split('\n').map((item, key) => {
+                return <div key={key}>{item}</div>
+              })}
+            </div>
           </div>
         </div>
       </div>

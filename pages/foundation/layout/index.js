@@ -34,7 +34,15 @@ class Layout extends Component {
           <p>
             Atom scale = Devide by 4 (contoh = 4px - 8px - 12px -16px - 20px - 24px - 32px - 40px - 48px - 64px - 96px - 160px)
           </p>
-
+          <div className="fazz-row" style={{ maxWidth: '1200px' }}>
+            <div className="fazz-col">
+              <img src="/static/images/layout/layout-scale@2x.png" className="article__img" style={{ maxWidth: '391px' }} />
+            </div>
+            <div className="fazz-col">
+              <div className="fw-500" style={{ marginTop: '20px' }}>Sampel Layout</div>
+              <img src="/static/images/layout/layout-grid@2x.png" className="article__img" style={{ maxWidth: '360px' }} />
+            </div>
+          </div>
         </article>
       </Site>
     )

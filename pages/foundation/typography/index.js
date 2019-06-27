@@ -20,8 +20,15 @@ class Typography extends Component {
           <p>
             Typography plays an important role in communicating an overall tone and quality. We selected Roboto and Montserrat as the corporate typefaces to reinforces our personality and ensures clarity and harmony in all PAYFAZZ communications
           </p>
-          <img src="/static/images/typeface-structure@2x.png" className="article__img font-design__img" style={{ maxWidth: '687px' }} />
-          <img src="/static/images/kind-typeface@2x.png" className="article__img font-example__img" style={{ maxWidth: '786px' }} />
+          <div className="font-design">	
+            <div className="font-design__text">FazzDesign</div>	
+            <div className="font-design__line font-design__line--1"><span>Ascender</span></div>	
+            <div className="font-design__line font-design__line--2"><span><strong>X Line</strong></span></div>	
+            <div className="font-design__line font-design__line--3"><span><strong>Base Line</strong></span></div>	
+            <div className="font-design__line font-design__line--4"><span>Descender</span></div>	
+          </div>
+          {/* <img src="/static/images/typography/typeface-structure@2x.png" className="article__img font-design__img" style={{ maxWidth: '687px' }} /> */}
+          <img src="/static/images/typography/kind-typeface@2x.png" className="article__img font-example__img" style={{ maxWidth: '786px' }} />
 
           <h2 className="article__title-menu"><strong>Font Weight</strong></h2>
           <div className="font-weight">
@@ -56,11 +63,11 @@ class Typography extends Component {
 
           <div className="fazz-row font-condition">
             <div className="fazz-col-6 text-center font-condition__box">
-              <img src="/static/images/light-background@2x.png" />
+              <img src="/static/images/typography/light-background@2x.png" />
               <span>Light Background</span>
             </div>
             <div className="fazz-col-6 text-center font-condition__box">
-              <img src="/static/images/dark-background@2x.png" />
+              <img src="/static/images/typography/dark-background@2x.png" />
               <span>Dark Background</span>
             </div>
           </div>

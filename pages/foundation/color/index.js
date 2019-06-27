@@ -165,12 +165,17 @@ class Foundation extends Component {
           <h2 className="article__title-menu"><strong>Error Color System</strong></h2>
           <div className="article__content">
             <Row>
-              <Col span="2">
+              <Col>
                 <div className="card" style={{ background: '#BA1818', color: '#FFFFFF' }}>
                   <span className="card__title">Color Red</span>
                   <span className="card__code">#BA1818</span>
                 </div>
               </Col>
+              <Col></Col>
+              <Col></Col>
+              <Col></Col>
+              <Col></Col>
+              <Col></Col>
             </Row>
           </div>
 

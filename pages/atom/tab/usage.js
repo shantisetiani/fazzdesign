@@ -12,7 +12,7 @@ class Usage extends Component {
                     Bold (Caps lock)<br />
                     16
                 </div>
-                <h2 className="article__title-menu" style={{ marginBottom: '17px' }}>Tab in Navigation</h2>
+                <h2 className="article__title-menu">Tab in Navigation</h2>
                 <p>
                     Tabs are elements used to organize a group of content that has similar contexts. They are also used to navigate information without changing a screen.
                 </p>
@@ -21,9 +21,9 @@ class Usage extends Component {
                         * Active bar #FFFFFF white with bar/line<br />
                         * Inactive bar #FFFFFF alpha 50 and no bar/line
                     </p>
-                    <img src="/static/images/tab-usage-1.png" />
+                    <img src="/static/images/tab/usage/big-tab-in-appbar@2x.png" className="article__img--wide box--shadowed" />
                 </div>
-                <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>General Tabs</h2>
+                <h2 className="article__title-menu">General Tabs</h2>
                 <p>
                     General tab is a tab that is outside navigation bar and organizes the content inside.
                 </p>
@@ -33,7 +33,7 @@ class Usage extends Component {
                         * Inactive bar #E0E0E0 Grey, no bar/line
                     </p>
                     <p>Tabs under the navigation, just using the text</p>
-                    <img src="/static/images/tab-usage-2.png" />
+                    <img src="/static/images/tab/usage/big-general-tab@2x.png" className="article__img--wide box--shadowed" />
                 </div>
             </div>
         )

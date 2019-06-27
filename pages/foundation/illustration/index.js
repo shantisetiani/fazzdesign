@@ -118,29 +118,29 @@ class Illustration extends Component {
 
           <div className="illustration__title"><strong>Figure Detail</strong></div>
           <p>Close up</p>
-          <img src="/static/images/ilustration-1@2x.png" className="article__img" style={{ maxWidth: '940px' }} />
+          <img src="/static/images/illustration/ilustration-1@2x.png" className="article__img" style={{ maxWidth: '940px' }} />
 
           <div className="illustration__title"><strong>Figure Detail</strong></div>
           <p>Full body</p>
-          <img src="/static/images/ilustration-fullbody-1@2x.png" className="article__img" style={{ maxWidth: '883px' }} />
+          <img src="/static/images/illustration/ilustration-fullbody-1@2x.png" className="article__img" style={{ maxWidth: '883px' }} />
 
           <div className="illustration__title"><strong>Background Detail</strong></div>
           <p>
             Free curvilinear forms are used as all illustration backgrounds. The purpose is to make the viewers see the main characters as the prime focus of the illustration. It is also possible to add some additional details to the background to make the illustration look more appealing.
           </p>
-          <img src="/static/images/background-detail.svg" className="article__img" style={{ maxWidth: '652px' }} />
+          <img src="/static/images/illustration/background-detail.svg" className="article__img" style={{ maxWidth: '652px' }} />
 
           <div className="illustration__title"><strong>Supporting Element Detail</strong></div>
           <p>Along the way with background, the supoorting elements are put curvilinear free as well. It is makes the detail over the background for a lively result of illustration. Make sure to decrease the opacity to avoid unbalanced color.</p>
-          <img src="/static/images/supporting-element-detail.svg" className="article__img" style={{ maxWidth: '548px' }} />
+          <img src="/static/images/illustration/supporting-element-detail.svg" className="article__img" style={{ maxWidth: '548px' }} />
 
           <div className="illustration__title"><strong>Character Detail - Male</strong></div>
           <p>The angle of character’s faces are made by different angle, mostly from ¾ angle to showed more shadow. Basically, the male character has a big hair and or big beard. These various type of faces are develop diversity among each character and make them are different one and other.</p>
-          <img src="/static/images/character-detail-male@2x.png" className="article__img" style={{ maxWidth: '671px' }} />
+          <img src="/static/images/illustration/character-detail-male@2x.png" className="article__img" style={{ maxWidth: '671px' }} />
 
           <div className="illustration__title"><strong>Character Detail - Female</strong></div>
           <p>We put so much fun to make the female character. It has big-wavie-long hair, mostly. The angle of faces depend on the character situation. We are care about diversity, which mean the each character we made are so different, but still looked lively and pretty.</p>
-          <img src="/static/images/character-detail-female@2x.png" className="article__img" style={{ maxWidth: '926px' }} />
+          <img src="/static/images/illustration/character-detail-female@2x.png" className="article__img" style={{ maxWidth: '926px' }} />
         </article>
       </Site>
     )

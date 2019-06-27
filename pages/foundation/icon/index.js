@@ -21,32 +21,32 @@ class Iconography extends Component {
           </p>
 
           <div className="icon-structure-section">
-            <img src="/static/images/size-icon@2x.png" className="article__img" style={{ maxWidth: '440px' }} />
+            <img src="/static/images/icon/size-icon@2x.png" className="article__img" style={{ maxWidth: '440px' }} />
             <div className="fazz-row">
               <div className="fazz-col-3 icon-structure">
-                <img src="/static/images/base-stroke@2x.png" className="icon-structure__img" />
+                <img src="/static/images/icon/base-stroke@2x.png" className="icon-structure__img" />
                 <h4><strong>Base stroke</strong></h4>
                 <p>The stroke weight is 2px</p>
               </div>
               <div className="fazz-col-3 icon-structure">
-                <img src="/static/images/base-corner@2x.png" className="icon-structure__img" />
+                <img src="/static/images/icon/base-corner@2x.png" className="icon-structure__img" />
                 <h4><strong>Base corner</strong></h4>
                 <p>The corner radius is 3px</p>
               </div>
               <div className="fazz-col-3 icon-structure">
-                <img src="/static/images/accent-with-stoke@2x.png" className="icon-structure__img" />
+                <img src="/static/images/icon/accent-with-stoke@2x.png" className="icon-structure__img" />
                 <h4><strong>Accent with stroke</strong></h4>
                 <p>Use 1 px stroke weight to make the accent</p>
               </div>
               <div className="fazz-col-3 icon-structure">
-                <img src="/static/images/accent-with-fill@2x.png" className="icon-structure__img" />
+                <img src="/static/images/icon/accent-with-fill@2x.png" className="icon-structure__img" />
                 <h4><strong>Accent with fill</strong></h4>
                 <p>When it had to using filled accent, make sure the counter stroke is max. 2px</p>
               </div>
             </div>
             <div className="fazz-row">
               <div className="fazz-col-3 icon-structure">
-                <img src="/static/images/shadow@2x.png" className="icon-structure__img" />
+                <img src="/static/images/icon/shadow@2x.png" className="icon-structure__img" />
                 <h4><strong>Shadow</strong></h4>
                 <p>The shadow shape should follows the base shape of the icon. Mostly, it takes ¼ of the shape, depends on the base shape itself</p>
               </div>
@@ -72,7 +72,7 @@ class Iconography extends Component {
             </div>
             <div className="fazz-col-4 no-padding text-center">
               <div className="icon-box icon-box--not-first">
-                <img src="/static/images/icon-dynamic.svg" />
+                <img src="/static/images/icon/icon-dynamic.svg" />
               </div>
               <div className="icon-box__caption">Dynamic</div>
             </div>
