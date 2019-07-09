@@ -19,7 +19,7 @@ class Usage extends Component {
                     {/* <img src="/static/images/button/usage/fill-white-panel-big@2x.png" className="article__img--wide" /> */}
                     <div className="fazz-box-gray button-usage-box--outer text-center">
                         <div className="button-box--white">	
-                            <button type="button" className="btn-primary"><strong>TEXT HERE</strong></button>	
+                            <button type="button" className="btn btn-primary"><strong>TEXT HERE</strong></button>	
                         </div>	
                     </div>
                     <h3 style={{ marginTop: '20px', marginBottom: '20px' }}><strong>Floating Fill Button</strong></h3>
@@ -28,7 +28,7 @@ class Usage extends Component {
                     </p>
                     {/* <img src="/static/images/button/usage/floating-fill-button-big@2x.png" className="article__img--wide" /> */}
                     <div className="fazz-box-gray button-usage-box text-center">
-                        <button type="button" className="btn-primary" style={{ boxShadow: '0 2px 8px 0 rgba(0, 0, 0, 0.2)' }}><strong>TEXT HERE</strong></button>	
+                        <button type="button" className="btn btn-primary" style={{ boxShadow: '0 2px 8px 0 rgba(0, 0, 0, 0.2)' }}><strong>TEXT HERE</strong></button>	
                     </div>
                 </div>
                 <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Line Button</h2>
@@ -38,9 +38,7 @@ class Usage extends Component {
                 <div style={{ marginLeft: '20px' }}>
                     {/* <img src="/static/images/button/usage/line-button-big@2x.png" className="article__img--wide" /> */}
                     <div className="fazz-box-gray button-usage-box--outer text-center">
-                        <div className="button-box--white">	
-                            <button type="button" className="btn-primary-ghost"><strong>TEXT HERE</strong></button>	
-                        </div>	
+                        <button type="button" className="btn btn-primary-ghost"><strong>TEXT HERE</strong></button>
                     </div>
                 </div>
                 <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '17px' }}>Text Button</h2>
@@ -50,9 +48,7 @@ class Usage extends Component {
                 <div style={{ marginLeft: '20px' }}>
                     {/* <img src="/static/images/button/usage/text-button-big@2x.png" className="article__img--wide" /> */}
                     <div className="fazz-box-gray button-usage-box--outer text-center">
-                        <div className="button-box--white">	
-                            <div style={{ color: '#3b8ef3' }}><strong>TEXT HERE</strong></div>	
-                        </div>	
+                        <button type="button" className="btn btn-text"><strong>TEXT HERE</strong></button>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ class Homepage extends Component {
             <h3 className="ls-2">FAZZ DESIGN FOUNDATAION</h3>
             <h1>Building empowering style guides with practical research</h1>
           </div>
-          <img src="/static/images/home-hero.svg" loading="lazy" alt="home-hero" />
+          <img src="/static/images/design-system@2x.png" loading="lazy" alt="home-hero" />
         </div>
 
         <div className="flex flex--space-between home-category">

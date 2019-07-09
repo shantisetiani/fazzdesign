@@ -76,7 +76,6 @@ class SiteSidebar extends Component {
               <li className={this.state.path == "/atom/progress" ? 'active' : ''}><Link href="/atom/progress"><a>Progress</a></Link></li>
             </ul>
           </li>
-          <li><Link href="/composite"><a>Composite</a></Link></li>
         </ul>
       </aside>
     )

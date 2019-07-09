@@ -36,11 +36,17 @@ class Layout extends Component {
           </p>
           <div className="fazz-row" style={{ maxWidth: '1200px' }}>
             <div className="fazz-col">
-              <img src="/static/images/layout/layout-scale@2x.png" className="article__img" style={{ maxWidth: '391px' }} />
+              <div className="anatomy-section">
+                <img src="/static/images/layout/panel-layout@2x.png" className="article__img style__img--6" />
+                <img src="/static/images/layout/arrow-layout@2x.png" className="article__img-arrow layout__img-arrow--1" />
+              </div>
             </div>
             <div className="fazz-col">
-              <div className="fw-500" style={{ marginTop: '20px' }}>Sampel Layout</div>
-              <img src="/static/images/layout/layout-grid@2x.png" className="article__img" style={{ maxWidth: '360px' }} />
+              <div className="fw-500" style={{ marginTop: '10px', marginBottom: '10px' }}>Sampel Layout</div>
+              <div className="anatomy-section">
+                <img src="/static/images/layout/panel-grid@2x.png" className="article__img" style={{ width: '93%' }} />
+                <img src="/static/images/layout/arrow-grid@2x.png" className="article__img-arrow layout__img-arrow--2" />
+              </div>
             </div>
           </div>
         </article>
