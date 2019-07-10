@@ -384,6 +384,7 @@ hr {
   .fazz-aside img {
     position: initial;
   }
+  .fazz-aside__menu { width: 25%; }
 
   .fazz-nav__toogle {
     display: inline-block;
@@ -431,6 +432,7 @@ hr {
   .fazz-aside.open {
     width: 50%;
   }
+  .fazz-aside__menu { width: 45%; }
 }
 
 @media(max-width: 425px){
@@ -440,6 +442,7 @@ hr {
   .fazz-aside.open {
     width: 75%;
   }
+  .fazz-aside__menu { width: 70%; }
 }
 
 /* .fazz-content */
