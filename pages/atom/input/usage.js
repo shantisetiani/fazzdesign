@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Usage extends Component {
     render() {
         return (
-            <div style={{ marginTop: '40px' }}>
+            <div className="atom-container">
                 <p>
                     Inputs are elements used to help the user input data. They have a progress bar when the user is required to fill in more than three inputs.
                 </p>
@@ -11,7 +11,7 @@ class Usage extends Component {
                 <p>
                     Hinted inputs are input that uses a label at the top of page.
                 </p>
-                <div style={{ marginLeft: '20px' }}>
+                <div className="indent-20">
                     <div className="fazz-box-gray input-usage__box-gray text-center">
                         <div className="fs-28 fw-500">TEXT HERE</div>
                         <div><input type="text" placeholder="08112121212" className="input-usage__input text-center" style={{ width: '379px', height: '71px', fontSize: '60px' }} /></div>

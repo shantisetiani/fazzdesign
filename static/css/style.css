@@ -87,6 +87,7 @@ li { line-height: 1.5 }
 ul { margin-top: 5px; margin-left: 15px; }
 ul { list-style-type: disc; }
 hr {
+  margin-top: 20px;
   border: solid 1px #e0e0e0;
 }
 
@@ -309,8 +310,17 @@ hr {
   z-index: 3;
 }
 .fazz-aside img {
+  position: fixed;
+  left: 73px;
   margin: 50px auto 30px auto;
   display: block;
+}
+.fazz-aside__menu {
+  position: fixed;
+  overflow-y: scroll;
+  top: 97px;
+  bottom: 20px;
+  width: 288px;
 }
 .fazz-aside li {
   display: block;
@@ -365,12 +375,14 @@ hr {
     left: -30%;
     bottom: 0;
     width: 30%;
-    overflow-y: scroll;
-    transition:left 0.3s linear;
+    transition: left 0.3s linear;
   }
   .fazz-aside.open {
     left: 0;
-    transition:left 0.3s linear;
+    transition: left 0.3s linear;
+  }
+  .fazz-aside img {
+    position: initial;
   }
 
   .fazz-nav__toogle {
@@ -928,6 +940,15 @@ hr {
   margin-top: -20px;
   max-width: 375px;
 }
+.indent-20 { margin-left: 20px; }
+.indent-40 { margin-left: 40px; }
+.indent-60 { margin-left: 60px; }
+
+.atom-container { margin-top: 40px; }
+.atom-sub-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
 
@@ -1018,8 +1039,11 @@ hr {
   width: 44%;
 }
 
-.code-title { margin: 20px 0; }
-.code-title h3 { max-width: 838px; }
+.code-title {
+  margin: 20px 0;
+  max-width: 690px;
+}
+.code-title h3 { max-width: 690px; }
 .code-title span {
   color: #b620e0;
   float: right;
@@ -1029,9 +1053,9 @@ hr {
   position: relative;
   background-color: #f2f4f5;
   width: 100%;
-  max-width: 838px;
+  max-width: 690px;
   padding: 40px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media(max-width: 425px) {
@@ -1107,6 +1131,23 @@ hr {
     overflow-y: hidden;
   }
 }
+
+@media(max-width: 320px) {
+  .button__img-arrow--1, .button__img-arrow--8 { top: 27%; }
+  .button__img-arrow--2 { top: 36.5%; }
+  .button__img-arrow--3 { top: 28.5%; }
+  .button__img-arrow--5 { top: 35%; }
+  .button__img-arrow--6 { top: 29%; }
+  .button__img-arrow--7 { top: 21%; }
+  .button__img-arrow--9 { top: 37%; }
+  .button__img-arrow--10 { top: 34.8%; }
+  .button__img-arrow--12, .button__img-arrow--15 { top: 33.5%; }
+  .button__img-arrow--13, .button__img-arrow--14 { top: 30.5%; }
+  .button__img-arrow--16 { top: 36%; }
+  .button__img-arrow--17 { top: 42%; }
+}
+
+
 
 /* Atom - Tab */
 .tab-style-paragraph { margin: 20px 0 0 60px; }
@@ -1371,12 +1412,17 @@ hr {
     width: 78%;
   }
   .tab__img-arrow--2 {
-    top: 17.3%;
+    top: 17.7%;
     left: 2.8%;
     width: 95.5%;
   }
-  .tab__img-arrow--3 { top: 21%; }
+  .tab__img-arrow--3 { top: 18%; }
   .tab__img-arrow--4 { top: 63.8%; }
+}
+
+@media(max-width: 320px) {
+  .tab__img-arrow--2 { top: 21.5%; }
+  .tab__img-arrow--4 { top: 62.6%; }
 }
 
 
@@ -1485,6 +1531,13 @@ hr {
   .user-card-section { height: 165px; }
 }
 
+@media(max-width: 320px) {
+  .card__img-arrow--1 { top: 30.5%; }
+  .card__img-arrow--2 { top: 32.5%; }
+  .card__img-arrow--4 { top: 16.8%; }
+  .card__img-arrow--6 { top: 15%; }
+}
+
 
 
 /* Atom - Snackbar */
@@ -1542,6 +1595,12 @@ hr {
   }
 }
 
+@media(max-width: 320px) {
+  .snackbar__img-arrow--1 { top: 33%; }
+  .snackbar__img-arrow--2, .snackbar__img-arrow--5 { top: 33.5%; }
+  .snackbar__img-arrow--3 { top: 36%; }
+}
+
 
 
 /* Atom - Bottom Sheet */
@@ -1570,6 +1629,7 @@ hr {
   left: 29%;
   width: 48%;
   opacity: 0;
+  transition:  opacity 1s, visibility 0.5s, left 0.5s;
 }
 .anatomy-section:hover .bottom-sheet__img-arrow--5 {
   left: 112%;
@@ -1602,6 +1662,14 @@ hr {
   .anatomy-section:hover .bottom-sheet__img-arrow--5 {
     left: 69%;
   }
+}
+
+@media(max-width: 320px) {
+  .bottom-sheet__img-arrow--1 { top: 31%; }
+  .bottom-sheet__img-arrow--2 { top: 12.5%; }
+  .bottom-sheet__img-arrow--3 { top: 29%; }
+  .bottom-sheet__img-arrow--4 { top: 23.5%; }
+  .bottom-sheet__img-arrow--5 { top: 22.5%; }
 }
 
 
@@ -1651,6 +1719,13 @@ hr {
   }
 }
 
+@media(max-width: 320px) {
+  .progress__img-arrow--1 { top: 30.5%; }
+  .progress__img-arrow--2 { top: 22%; }
+  .progress__img-arrow--3 { top: 33%; }
+  .progress__img-arrow--4 { top: 29.5%; }
+}
+
 
 
 /* .fazz-box */
@@ -1661,6 +1736,12 @@ hr {
 .fazz-box-gray {
   position: relative;
   background-color: #f2f4f5;
+  width: 100%;
+}
+.fazz-box-transparent {
+  position: relative;
+  background-image: url("../images/bg-transparent.jpg");
+  background-size: cover;
   width: 100%;
 }
 .fazz-box-green {
@@ -1721,22 +1802,22 @@ hr {
 .icon-circle-bordered:before { color: #ffffff; }
 
 .button-usage-box {
-  max-width: 780px;
-  padding: 96px 27px;
+  max-width: 375px;
+  padding: 66px 62px;
 }
 .button-usage-box--outer {
-  max-width: 780px;
-  padding: 72px 27px;
+  max-width: 375px;
+  padding: 48px 30px;
 }
 .button-box--white {
   background-color: #ffffff;
-  max-width: 720px;
-  padding: 24px 44px 24px 36px;
+  max-width: 315px;
+  padding: 18px 28px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .button-usage-box button,
 .button-usage-box--outer button,
-.button-box--white > div { font-size: 28px; }
+.button-box--white > div { font-size: 18px; }
 
 .btn { position: relative; }
 .btn::before, .btn::after {
@@ -1758,7 +1839,7 @@ hr {
   color: #ffffff;
   border: none;
   border-radius: 4px;
-  padding: 28px;
+  padding: 16px;
   width: 100%;
 }
 .btn-primary:hover, .btn-primary:focus {
@@ -1789,7 +1870,7 @@ hr {
   color: #3b8ef3;
   border: 1px solid #3b8ef3;
   border-radius: 4px;
-  padding: 28px;
+  padding: 16px;
   width: 100%;
 }
 .btn-primary-ghost:hover, .btn-primary-ghost:focus {
@@ -1820,7 +1901,7 @@ hr {
   color: #3b8ef3;
   border: 1px solid transparent;
   border-radius: 4px;
-  padding: 28px;
+  padding: 16px;
   width: 100%;
 }
 .btn-text:hover, .btn-text:focus {
@@ -1859,7 +1940,8 @@ hr {
   .button-usage-box--outer button,
   .button-box--white > div { font-size: 12px; }
   .btn-primary,
-  .btn-primary-ghost {
+  .btn-primary-ghost,
+  .btn-text {
     padding: 12px;
   }
 }
@@ -1997,6 +2079,13 @@ hr {
   margin-top: 60px;
   margin-bottom: 20px;
 }
+
+.illustration__point { margin-bottom: 40px; }
+
+.pallete-title {
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
 .pallete-box{
   width: 330px;
   margin-left: 15px;
@@ -2073,4 +2162,8 @@ hr {
     left: 18.3%;
     width: 67%;
   }
+}
+
+@media(max-width: 320px){
+  .layout__img-arrow--1 { top: 28.5%; }
 }

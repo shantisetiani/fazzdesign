@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Code extends Component {
   render() {
     return (
-            <div style={{ marginTop: '40px' }}>
+            <div className="atom-container">
                 <div>Code</div>
             </div>
         )

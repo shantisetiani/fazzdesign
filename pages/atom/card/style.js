@@ -34,32 +34,32 @@ class Style extends Component {
 
   render() {
     return (
-      <div style={{ marginTop: '40px' }}>
+      <div className="atom-container">
         <h2 className="article__title-menu">General Card</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla orci, ultricies a felis sit amet, molestie vestibulum ipsum. Mauris ut rhoncus diam. Phasellus sit amet tincidunt risus
         </p>
-        <h3 style={{ marginTop: '20px', marginBottom: '20px' }}><strong>A. Action General Card</strong></h3>
-        <div style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginTop: '20px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+        <h3 className="atom-sub-title"><strong>A. Action General Card</strong></h3>
+        <div className="indent-40">
+          <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/card/style/panel-anatomy-action-general-card@2x.png" className="article__img style__img--5" />
               <img src="/static/images/card/style/arrow-anatomy-action-general-card@2x.png" className="article__img-arrow card__img-arrow--1" />
             </div>
           </div>
-            <h3 className="fw-500" style={{ marginTop: '20px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <h3 className="fw-500 atom-sub-title">b. Scale</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/card/style/panel-scale-action-general-card@2x.png" className="article__img style__img--5" />
               <img src="/static/images/card/style/arrow-scale-action-general-card@2x.png" className="article__img-arrow card__img-arrow--2" />
             </div>
           </div>
         </div>
-        <h3 style={{ marginTop: '40px', marginBottom: '20px' }}><strong>B. User Card</strong></h3>
-        <div style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginTop: '20px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+        <h3 className="atom-sub-title"><strong>B. User Card</strong></h3>
+        <div className="indent-40">
+          <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
+          <div className="indent-20">
             <div className="anatomy-section user-card-section">
               <img src="/static/images/card/style/panel-anatomy-user-card@2x.png" className="article__img style__img--3 user-card user-card--action active" />
               <img src="/static/images/card/style/card-verifikasi-sukses-green@2x.png" className="article__img style__img--3 user-card user-card--success" />
@@ -83,25 +83,25 @@ class Style extends Component {
               </div>
             </div>
           </div>
-          <h3 className="fw-500" style={{ marginTop: '20px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <h3 className="fw-500 atom-sub-title">b. Scale</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/card/style/panel-scale-user-card@2x.png" className="article__img style__img--3" />
               <img src="/static/images/card/style/arrow-scale-user-card@2x.png" className="article__img-arrow card__img-arrow--4" />
             </div>
           </div>
         </div>
-        <h3 style={{ marginTop: '40px', marginBottom: '20px' }}><strong>C. Callouts</strong></h3>
-        <div style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginTop: '20px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+        <h3 className="atom-sub-title"><strong>C. Callouts</strong></h3>
+        <div className="indent-40">
+          <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/card/style/panel-anatomy-callouts@2x.png" className="article__img style__img--3" />
               <img src="/static/images/card/style/arrow-anatomy-callouts@2x.png" className="article__img-arrow card__img-arrow--5" />
             </div>
           </div>
-          <h3 className="fw-500" style={{ marginTop: '20px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <h3 className="fw-500 atom-sub-title">b. Scale</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/card/style/panel-scale-callouts@2x.png" className="article__img style__img--3" />
               <img src="/static/images/card/style/arrow-scale-callouts@2x.png" className="article__img-arrow card__img-arrow--6" />

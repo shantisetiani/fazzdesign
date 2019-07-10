@@ -21,7 +21,7 @@ class Iconography extends Component {
           </p>
 
           <div className="icon-structure-section">
-            <img src="/static/images/icon/size-icon@2x.png" className="article__img" style={{ maxWidth: '440px' }} />
+            <img src="/static/images/icon/size-icon@2x.png" className="article__img" />
             <div className="fazz-row">
               <div className="fazz-col-3 icon-structure">
                 <img src="/static/images/icon/base-stroke@2x.png" className="icon-structure__img" />
@@ -53,7 +53,7 @@ class Iconography extends Component {
             </div>
           </div>
           <p>They are using dynamic color from Fazz's brand product. If not, they must using white color in black background. Untuk warna icon bisa memakai warna dynamic brand product Fazz, atau memakai warna putih di background hitam</p>
-          <div className="fazz-row fazz-row-mobile-2 no-margin-mobile" style={{ marginLeft: '35px' }}>
+          <div className="fazz-row fazz-row-mobile-2 no-margin-mobile indent-40">
             <div className="fazz-col-4 no-padding text-center">
               <div className="icon-box">
                 <span className="icon-icon-black-white">

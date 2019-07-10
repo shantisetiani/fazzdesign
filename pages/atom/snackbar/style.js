@@ -3,18 +3,18 @@ import React, { Component } from 'react'
 class Style extends Component {
   render() {
     return (
-      <div style={{ marginTop: '40px' }}>
-        <h2 className="article__title-menu" style={{ marginBottom: '20px' }}>High priority with button</h2>
-        <div style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+      <div className="atom-container">
+        <h2 className="article__title-menu">High priority with button</h2>
+        <div className="indent-40">
+          <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/snackbar/style/panel-anatomy-snackbar-hi-priority@2x.png" className="article__img style__img--4" />
               <img src="/static/images/snackbar/style/arrow-anatomy-snackbar-hi-priority@2x.png" className="article__img-arrow snackbar__img-arrow--1" />
             </div>
           </div>
-          <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <h3 className="fw-500 atom-sub-title">b. Scale</h3>
+          <div className="indent-20">
             <p>Using button and need action from users.</p>
             <div className="anatomy-section">
               <img src="/static/images/snackbar/style/panel-scale-snackbar-hi-priority@2x.png" className="article__img style__img--4" />
@@ -26,17 +26,17 @@ class Style extends Component {
             </div>
           </div>
         </div>
-        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Low priority without a button</h2>
-        <div style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginBottom: '20px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+        <h2 className="article__title-menu">Low priority without a button</h2>
+        <div className="indent-40">
+          <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
+          <div className="indent-20">
             <div className="anatomy-section">
               <img src="/static/images/snackbar/style/panel-anatomy-snackbar-low-priority@2x.png" className="article__img style__img--4" />
               <img src="/static/images/snackbar/style/arrow-anatomy-snackbar-low-priority@2x.png" className="article__img-arrow snackbar__img-arrow--4" />
             </div>
           </div>
-          <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <h3 className="fw-500 atom-sub-title">b. Scale</h3>
+          <div className="indent-20">
             <p>Without button and don't need an action from users. </p>
             <div className="anatomy-section">
               <img src="/static/images/snackbar/style/panel-scale-snackbar-low-priority@2x.png" className="article__img style__img--4" />

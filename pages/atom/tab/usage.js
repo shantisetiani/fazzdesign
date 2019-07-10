@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Usage extends Component {
     render() {
         return (
-            <div style={{ marginTop: '40px' }}>
+            <div className="atom-container">
                 <p>
                     Tabs are elements used to organize a group of content that has similar contexts. They are also used to navigate information without changing a screen.
                 </p>
@@ -16,24 +16,24 @@ class Usage extends Component {
                 <p>
                     Tabs are elements used to organize a group of content that has similar contexts. They are also used to navigate information without changing a screen.
                 </p>
-                <div style={{ marginLeft: '20px' }}>
+                <div className="indent-20">
                     <p>
                         * Active bar #FFFFFF white with bar/line<br />
                         * Inactive bar #FFFFFF alpha 50 and no bar/line
                     </p>
-                    <img src="/static/images/tab/usage/big-tab-in-appbar@2x.png" className="article__img--wide box--shadowed" />
+                    <img src="/static/images/tab/usage/big-tab-in-appbar@2x.png" className="article__img" />
                 </div>
                 <h2 className="article__title-menu">General Tabs</h2>
                 <p>
                     General tab is a tab that is outside navigation bar and organizes the content inside.
                 </p>
-                <div style={{ marginLeft: '20px' }}>
+                <div className="indent-20">
                     <p>
                         * Active bar #3B8EF3 blue and using bar/line<br />
                         * Inactive bar #E0E0E0 Grey, no bar/line
                     </p>
                     <p>Tabs under the navigation, just using the text</p>
-                    <img src="/static/images/tab/usage/big-general-tab@2x.png" className="article__img--wide box--shadowed" />
+                    <img src="/static/images/tab/usage/big-general-tab@2x.png" className="article__img" />
                 </div>
             </div>
         )

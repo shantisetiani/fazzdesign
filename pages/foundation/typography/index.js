@@ -27,8 +27,7 @@ class Typography extends Component {
             <div className="font-design__line font-design__line--3"><span><strong>Base Line</strong></span></div>	
             <div className="font-design__line font-design__line--4"><span>Descender</span></div>	
           </div>
-          {/* <img src="/static/images/typography/typeface-structure@2x.png" className="article__img font-design__img" style={{ maxWidth: '687px' }} /> */}
-          <img src="/static/images/typography/kind-typeface@2x.png" className="article__img font-example__img" style={{ maxWidth: '786px' }} />
+          <img src="/static/images/typography/kind-typeface@2x.png" className="article__img font-example__img" style={{ maxWidth: '700px' }} />
 
           <h2 className="article__title-menu"><strong>Font Weight</strong></h2>
           <div className="font-weight">

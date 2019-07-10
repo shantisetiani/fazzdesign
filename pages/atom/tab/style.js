@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 class Style extends Component {
   render() {
     return (
-      <div style={{ marginTop: '40px' }}>
+      <div className="atom-container">
         <h2 className="article__title-menu">Tab in Navigation</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
-        <div className="margin-sm-mobile" style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Anatomy</h3>
+        <div className="margin-sm-mobile indent-40">
+          <h3 className="fw-500 atom-sub-title">Anatomy</h3>
           <p>
             Filled button with white panel dipakai untuk kebutuhan high priority dan untuk button sendiri tidak memiliki shadow, dan harus fixed position.
           </p>
@@ -17,7 +17,7 @@ class Style extends Component {
             <img src="/static/images/tab/style/panel-anatomy-tab-in-navigation@2x.png" className="article__img style__img--3" />
             <img src="/static/images/tab/style/arrow-anatomy-tab-in-navigation@2x.png" className="article__img-arrow tab__img-arrow--1" />
           </div>
-          <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '20px' }}>Scale</h3>
+          <h3 className="fw-500 atom-sub-title">Scale</h3>
           <p>
             Tabs in navigation,
           </p>
@@ -31,13 +31,13 @@ class Style extends Component {
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
         <h3 className="fw-500">Tab Text</h3>
-        <div className="margin-sm-mobile" style={{ marginLeft: '40px' }}>
-          <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '30px' }}>Anatomy</h3>
+        <div className="margin-sm-mobile indent-40">
+          <h3 className="fw-500 atom-sub-title">Anatomy</h3>
           <div className="anatomy-section">
             <img src="/static/images/tab/style/panel-anatomy-general-text@2x.png" className="article__img style__img--3" />
             <img src="/static/images/tab/style/arrow-anatomy-general-text@2x.png" className="article__img-arrow tab__img-arrow--1" />
           </div>
-          <h3 className="fw-500" style={{ marginBottom: '20px' }}>Scale</h3>
+          <h3 className="fw-500 atom-sub-title">Scale</h3>
           <p>
             Hi position
           </p>
@@ -54,7 +54,7 @@ class Style extends Component {
           </div>
         </div>
         <h2 className="article__title-menu">Composite Usecase</h2>
-        <div className="margin-sm-mobile" style={{ marginLeft: '40px' }}>
+        <div className="margin-sm-mobile indent-40">
           <div><img src="/static/images/tab/style/composite-tab-in-card@2x.png" className="article__img" /></div>
           <div><img src="/static/images/tab/style/composite-tab-on-content@2x.png" className="article__img" /></div>
         </div>

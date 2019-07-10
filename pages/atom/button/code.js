@@ -48,7 +48,7 @@ class Code extends Component {
       Flutter 1.2.1 • 2019-02-26 16:18 • 8661d8aecd • stable`;
 
     return (
-      <div style={{ marginTop: '40px' }}>
+      <div className="atom-container">
         {/* <div className="flex flex--space-between home-category">
           <div className="flex home-category__item">
             <img src="http://placehold.jp/100x100.png" loading="lazy" alt="category" />
@@ -80,13 +80,17 @@ class Code extends Component {
           </div>
         </div>
         <hr /> */}
-        <h2 className="article__title-menu" style={{ marginTop: '40px', marginBottom: '20px' }}>Filled Button</h2>
+        <h2 className="article__title-menu">Filled Button</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
-        <h3 style={{ marginTop: '20px', marginBottom: '20px' }}><strong>Filled Button White Panel</strong></h3>
-        <img src="/static/images/tab-style-4.png" />
-        <div className="no-margin-mobile" style={{ marginLeft: '40px' }}>
+        <h3 className="atom-sub-title"><strong>Filled Button White Panel</strong></h3>
+        <div className="fazz-box-transparent button-usage-box--outer text-center">
+            <div className="button-box--white">	
+                <button type="button" className="btn btn-primary"><strong>TEXT HERE</strong></button>	
+            </div>	
+        </div>
+        <div className="no-margin-mobile indent-40">
           <div className="code-title fw-500">
             <h3>Android<span>Copy</span></h3>
           </div>

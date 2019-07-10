@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 class Style extends Component {
   render() {
     return (
-      <div style={{ marginTop: '40px' }}>
+      <div className="atom-container">
         <h2 className="article__title-menu" style={{ marginBottom: '20px' }}>Hinted input</h2>
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
-        <div style={{ marginLeft: '40px' }}>
+        <div className="indent-40">
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '30px' }}>a. Anatomy</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <div className="indent-20">
             <div className="fazz-box-gray tab-style__box-gray--1 text-center" style={{ padding: '53px 48px 52px 49px' }}>
               <div className="fs-14" style={{ marginBottom: '8px' }}>TEXT HERE</div>
               <div><input type="text" placeholder="08112121212" className="input-usage__input text-center" style={{ width: '190px', height: '35px', fontSize: '30px' }} /></div>
@@ -20,7 +20,7 @@ class Style extends Component {
             </div>
           </div>
           <h3 className="fw-500" style={{ marginTop: '33px', marginBottom: '30px' }}>b. Scale</h3>
-          <div style={{ marginLeft: '20px' }}>
+          <div className="indent-20">
             <div className="flex">
               <div className="fazz-box-gray tab-style__box-gray--1 text-center" style={{ padding: '63px 48px 42px 49px' }}>
                 <div className="fs-14" style={{ marginBottom: '8px' }}>TEXT HERE</div>
@@ -55,9 +55,9 @@ class Style extends Component {
           </div>
         </div>
         <h2 className="article__title-menu" style={{ marginTop: '143px', marginBottom: '20px' }}>Usecase</h2>
-        <div style={{ marginLeft: '20px' }}>
+        <div className="indent-20">
           <p>Another case of hinted input</p>
-          <div style={{ marginLeft: '20px' }}>
+          <div className="indent-20">
             <div className="fazz-box-gray tab-style__box-gray--2" style={{ padding: '72px 48px' }}>
               <div className="fazz-box-white" style={{ width: '344px', height: '56px', paddingTop: '9px', paddingLeft: '16px' }}>
                 <div className="f2-12" style={{ color: '#757575' }}>Text Here (Opsional)</div>

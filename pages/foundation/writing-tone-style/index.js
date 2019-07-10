@@ -20,10 +20,10 @@ class Writing extends Component {
             Our brand voice is tailored to Fazz Family’s DNA. It will give you clear and helpful suggestions that are in accordance with all brands in Fazz Family.
           </p>
 
-          <div className="article__title-menu" style={{ marginBottom: '16px' }}>Clear</div>
+          <div className="article__title-menu">Clear</div>
           <p style={{ marginBottom: '40px' }}>Use clear, to the point, and semi-formal sentences. Focus on user’s understanding and make content relevant. Use a maximum of 140 characters. Example: “Anda tidak memiliki riwayat transaksi. Ayo mulai transaksi sekarang!”</p>
           
-          <div className="article__title-menu" style={{ marginBottom: '16px' }}>Helpful</div>
+          <div className="article__title-menu">Helpful</div>
           <p style={{ marginBottom: '54px' }}>Use familiar words. Use clear instructions to help user when doing something. Know user’s needs for every Fazz Family’s brand. Example: “Pesanan yang Anda cari tidak ditemukan. Ulangi pencarian dengan kata kunci yang berbeda.”</p>
 
           <div className="fazz-row">
