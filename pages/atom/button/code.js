@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 class Code extends Component {
   render() {
@@ -92,7 +93,12 @@ class Code extends Component {
         </div>
         <div className="no-margin-mobile indent-40">
           <div className="code-title fw-500">
-            <h3>Android<span>Copy</span></h3>
+            <h3>
+              Android
+              <CopyToClipboard text={androidCode}>
+                <span>Copy</span>
+              </CopyToClipboard>
+            </h3>
           </div>
           <div className="code-box">
             <div className="code-box__text">
@@ -102,7 +108,12 @@ class Code extends Component {
             </div>
           </div>
           <div className="code-title fw-500">
-            <h3>Flutter<span>Copy</span></h3>
+            <h3>
+              Flutter
+              <CopyToClipboard text={flutterCode}>
+                <span>Copy</span>
+              </CopyToClipboard>
+            </h3>
           </div>
           <div className="code-box">
             <div className="code-box__text">

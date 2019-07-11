@@ -1052,12 +1052,15 @@ hr {
   float: right;
   cursor: pointer;
 }
+.code-title span:hover { opacity: 0.7; }
+.code-title span:active { opacity: 0.5; }
+
 .code-box {
   position: relative;
   background-color: #f2f4f5;
   width: 100%;
   max-width: 690px;
-  padding: 40px;
+  padding: 40px 20px 40px 16px;
   font-size: 16px;
 }
 
