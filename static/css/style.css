@@ -1135,6 +1135,21 @@ hr {
   }
 }
 
+@media(max-width: 375px) {
+  .button__img-arrow--1 { top: 26%; }
+  .button__img-arrow--2 { top: 35%; }
+  .button__img-arrow--3 { top: 27%; }
+  .button__img-arrow--5 { top: 32%; }
+  .button__img-arrow--6 { top: 26.5%; }
+  .button__img-arrow--7 { top: 18%; }
+  .button__img-arrow--8 { top: 25%; }
+  .button__img-arrow--9 { top: 35.5%; }
+  .button__img-arrow--10, .button__img-arrow--16 { top: 34%; }
+  .button__img-arrow--12, .button__img-arrow--15 { top: 33%; }
+  .button__img-arrow--13, .button__img-arrow--14 { top: 28%; }
+  .button__img-arrow--17 { top: 41%; }
+}
+
 @media(max-width: 320px) {
   .button__img-arrow--1, .button__img-arrow--8 { top: 27%; }
   .button__img-arrow--2 { top: 36.5%; }
@@ -1423,8 +1438,15 @@ hr {
   .tab__img-arrow--4 { top: 63.8%; }
 }
 
+@media(max-width: 375px) {
+  .tab__img-arrow--2 { top: 19.3%; }
+  .tab__img-arrow--3 { top: 19%; }
+  .tab__img-arrow--4 { top: 62.8%; }
+}
+
 @media(max-width: 320px) {
-  .tab__img-arrow--2 { top: 21.5%; }
+  .tab__img-arrow--2 { top: 21.8%; }
+  .tab__img-arrow--3 { top: 21%; }
   .tab__img-arrow--4 { top: 62.6%; }
 }
 
@@ -1526,12 +1548,19 @@ hr {
     width: 37%;
   }
   .card__img-arrow--6 {
-    top: 10.3%;
+    top: 10.4%;
     left: 5.8%;
     width: 64%;
   }
 
   .user-card-section { height: 165px; }
+}
+
+@media(max-width: 375px) {
+  .card__img-arrow--1 { top: 29.5%; }
+  .card__img-arrow--2 { top: 30.5%; }
+  .card__img-arrow--4 { top: 14%; }
+  .card__img-arrow--6 { top: 11.7%; }
 }
 
 @media(max-width: 320px) {
@@ -1598,6 +1627,12 @@ hr {
   }
 }
 
+@media(max-width: 375px) {
+  .snackbar__img-arrow--1 { top: 30%; }
+  .snackbar__img-arrow--2, .snackbar__img-arrow--5 { top: 31.5%; }
+  .snackbar__img-arrow--3 { top: 35%; }
+}
+
 @media(max-width: 320px) {
   .snackbar__img-arrow--1 { top: 33%; }
   .snackbar__img-arrow--2, .snackbar__img-arrow--5 { top: 33.5%; }
@@ -1653,7 +1688,7 @@ hr {
     width: 28%;
   }
   .bottom-sheet__img-arrow--4 {
-    top: 19.2%;
+    top: 19.3%;
     left: 0.6%;
     width: 96%;
   }
@@ -1665,6 +1700,14 @@ hr {
   .anatomy-section:hover .bottom-sheet__img-arrow--5 {
     left: 69%;
   }
+}
+
+@media(max-width: 375px) {
+  .bottom-sheet__img-arrow--1 { top: 30%; }
+  .bottom-sheet__img-arrow--2 { top: 10.3%; }
+  .bottom-sheet__img-arrow--3 { top: 28%; }
+  .bottom-sheet__img-arrow--4 { top: 20.5%; }
+  .bottom-sheet__img-arrow--5 { top: 21%; }
 }
 
 @media(max-width: 320px) {
@@ -1722,10 +1765,16 @@ hr {
   }
 }
 
+@media(max-width: 375px) {
+  .progress__img-arrow--1 { top: 28%; }
+  .progress__img-arrow--2 { top: 18.8%; }
+  .progress__img-arrow--3 { top: 33%; }
+  .progress__img-arrow--4 { top: 27.5%; }
+}
+
 @media(max-width: 320px) {
   .progress__img-arrow--1 { top: 30.5%; }
   .progress__img-arrow--2 { top: 22%; }
-  .progress__img-arrow--3 { top: 33%; }
   .progress__img-arrow--4 { top: 29.5%; }
 }
 
@@ -2165,6 +2214,10 @@ hr {
     left: 18.3%;
     width: 67%;
   }
+}
+
+@media(max-width: 375px){
+  .layout__img-arrow--1 { top: 28.2%; }
 }
 
 @media(max-width: 320px){
