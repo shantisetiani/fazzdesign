@@ -124,34 +124,34 @@ class Style extends Component {
           <p>
             Above is an example of how the button is combined with content
           </p>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-white-panel-content@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-white-panel-content@2x.png" className="article__img-arrow button__img-arrow--13" />
           </div>
           <h3 className="fw-500 atom-sub-title">Filled Button White Panel + Text Button</h3>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-fill-button-wt-panel-text-button@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-fill-button-wt-panel-text-button@2x.png" className="article__img-arrow button__img-arrow--14" />
           </div>
           <h3 className="fw-500 atom-sub-title">Filled Button White Panel + 2 Text Button</h3>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-fill-button-wt-panel-2-text-button@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-fill-button-wt-panel-2-text-button@2x.png" className="article__img-arrow button__img-arrow--14" />
           </div>
           <h3 className="fw-500 atom-sub-title">Content + Custom Fill Button</h3>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-content-custom-fill-button@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-content-custom-fill-button@2x.png" className="article__img-arrow button__img-arrow--15" />
           </div>
           <h3 className="fw-500 atom-sub-title">Line Button + Custom Fill Button</h3>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-line-button-custom-fill-button@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-line-button-custom-fill-button@2x.png" className="article__img-arrow button__img-arrow--16" />
           </div>
           {/* <h3 className="fw-500 atom-sub-title">Line Button + Line Button (can use an icon)</h3>
           <img src="/static/images/button/style/composite-2-line-button@2x.png" className="article__img--wide" /> */}
           <h3 className="fw-500 atom-sub-title">Text Button + Custom Fill Button</h3>
-          <div className="anatomy-section">
+          <div className="anatomy-section anatomy-section--wide">
             <img src="/static/images/button/style/panel-composite-text-button-custom-fill-button@2x.png" className="article__img" />
             <img src="/static/images/button/style/arrow-composite-text-button-custom-fill-button@2x.png" className="article__img-arrow button__img-arrow--17" />
           </div>
