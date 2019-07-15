@@ -65,12 +65,12 @@ class SiteSidebar extends Component {
             <ul className={`fazz-aside__sub-menu ${this.state.menu == 'atom' ? 'open' : ''}`}>
               <li className={this.state.path == "/atom/button" ? 'active' : ''}><Link href="/atom/button"><a>Button</a></Link></li>
               <li className={this.state.path == "/atom/tab" ? 'active' : ''}><Link href="/atom/tab"><a>Tab</a></Link></li>
-              <li className={this.state.path == "/atom/input" ? 'active' : ''}><Link href="/atom/input"><a>Input</a></Link></li>
-              <li className={this.state.path == "/atom/label" ? 'active' : ''}><Link href="/atom/"><a>Label</a></Link></li>
-              <li className={this.state.path == "/atom/list" ? 'active' : ''}><Link href="/atom/"><a>List</a></Link></li>
+              {/* <li className={this.state.path == "/atom/input" ? 'active' : ''}><Link href="/atom/input"><a>Input</a></Link></li> */}
+              {/* <li className={this.state.path == "/atom/label" ? 'active' : ''}><Link href="/atom/"><a>Label</a></Link></li> */}
+              {/* <li className={this.state.path == "/atom/list" ? 'active' : ''}><Link href="/atom/"><a>List</a></Link></li> */}
               <li className={this.state.path == "/atom/card" ? 'active' : ''}><Link href="/atom/card"><a>Card</a></Link></li>
-              <li className={this.state.path == "/atom/app-bar" ? 'active' : ''}><Link href="/atom/"><a>App Bar</a></Link></li>
-              <li className={this.state.path == "/atom/bottom-bar" ? 'active' : ''}><Link href="/atom/"><a>Bottom Bar</a></Link></li>
+              {/* <li className={this.state.path == "/atom/app-bar" ? 'active' : ''}><Link href="/atom/"><a>App Bar</a></Link></li> */}
+              {/* <li className={this.state.path == "/atom/bottom-bar" ? 'active' : ''}><Link href="/atom/"><a>Bottom Bar</a></Link></li> */}
               <li className={this.state.path == "/atom/snackbar" ? 'active' : ''}><Link href="/atom/snackbar"><a>Snackbar</a></Link></li>
               <li className={this.state.path == "/atom/bottom-sheet" ? 'active' : ''}><Link href="/atom/bottom-sheet"><a>Bottom Sheet</a></Link></li>
               <li className={this.state.path == "/atom/progress" ? 'active' : ''}><Link href="/atom/progress"><a>Progress</a></Link></li>
