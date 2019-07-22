@@ -1,9 +1,5 @@
-
 import React, { Component } from 'react'
-import Link from 'next/link'
 import Site from '../../../components/layouts/site'
-import { Container, Row, Col } from '../../../components/fazz-inc'
-
 
 class Iconography extends Component {
   render() {

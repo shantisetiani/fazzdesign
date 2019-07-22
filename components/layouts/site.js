@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
@@ -22,7 +21,17 @@ class Site extends Component {
     this.hideOverlay();
   }
 
+  state = { 
+    isLoading: true
+  }
+
+  componentDidMount() {
+    this.setState({ isLoading: false })
+  }
+
   render() {
+    const { isLoading } = this.state
+    
     return (
       <div className="fazz-site">
         <SiteMeta
@@ -32,13 +41,22 @@ class Site extends Component {
           ogImage={this.props.ogImage}
         />
         <SiteHeader />
-        <main className="flex fazz-main">
-          <SiteSidebar />
-          <div className={`fazz-content ${this.props.isHome ? 'fazz-content--home' : ''}`}>
-            {this.props.children}
+        {
+          isLoading ? 
+          <div className="loading">
+            <div></div>
+            <div></div>
           </div>
-          <div className="overlay" onClick={ this.closeMenu }></div>
-        </main>
+          : 
+          <main className="flex fazz-main">
+            <SiteSidebar />
+            <div className={`fade-in fazz-content ${this.props.isHome ? 'fazz-content--home' : ''}`}>
+              {this.props.children}
+            </div>
+            <div className="overlay" onClick={ this.closeMenu }></div>
+          </main>
+        }
+        
       </div>
     )
   }

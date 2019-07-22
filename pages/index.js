@@ -1,6 +1,4 @@
-
 import React, { Component } from 'react'
-import Link from 'next/link'
 import Site from '../components/layouts/site'
 
 class Homepage extends Component {
@@ -13,7 +11,7 @@ class Homepage extends Component {
       >
         <div className="flex home-hero">
           <div className="home-hero__text">
-            <h3 className="ls-2">FAZZ DESIGN FOUNDATAION</h3>
+            <h3 className="ls-2">FAZZ DESIGN FOUNDATION</h3>
             <h1>Building empowering style guides with practical research</h1>
           </div>
           <img src="/static/images/design-system@2x.png" loading="lazy" alt="home-hero" />

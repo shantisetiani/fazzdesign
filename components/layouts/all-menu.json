@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Introduction",
+        "url": "/"
+    },
+    {
+        "name": "Foundation",
+        "url": "/foundation/color",
+        "children": [
+            {
+                "name": "Color",
+                "url": "/foundation/color"
+            },
+            {
+                "name": "Typography",
+                "url": "/foundation/typography"
+            },
+            {
+                "name": "Icon",
+                "url": "/foundation/icon"
+            },
+            {
+                "name": "Illustration",
+                "url": "/foundation/illustration"
+            },
+            {
+                "name": "Layout",
+                "url": "/foundation/layout"
+            },
+            {
+                "name": "Writing Tone & Style",
+                "url": "/foundation/writing-tone-style"
+            }
+        ]
+    },
+    {
+        "name": "Atom",
+        "url": "/atom/button",
+        "children": [
+            {
+                "name": "Button",
+                "url": "/atom/button"
+            },
+            {
+                "name": "Tab",
+                "url": "/atom/tab"
+            },
+            {
+                "name": "Input",
+                "url": "/atom/input"
+            },
+            {
+                "name": "Label",
+                "url": "/atom/label"
+            },
+            {
+                "name": "List",
+                "url": "/atom/list"
+            },
+            {
+                "name": "Card",
+                "url": "/atom/card"
+            },
+            {
+                "name": "App Bar",
+                "url": "/atom/app-bar"
+            },
+            {
+                "name": "Bottom Bar",
+                "url": "/atom/bottom-bar"
+            },
+            {
+                "name": "Snackbar",
+                "url": "/atom/snackbar"
+            },
+            {
+                "name": "Bottom Sheet",
+                "url": "/atom/bottom-sheet"
+            },
+            {
+                "name": "Progress",
+                "url": "/atom/progress"
+            }
+        ]
+    }
+]

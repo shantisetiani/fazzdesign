@@ -21,7 +21,7 @@ class Style extends Component {
             <p>
               Full screen size 640. For high bottom sheet max size 90% from screen and for low bottom sheet 25% from full screen size. 
             </p>
-            <div className="anatomy-section">
+            <div className="anatomy-section anatomy-section--wide">
               <img src="/static/images/bottom-sheet/style/panel-scale-bs-close-header@2x.png" className="article__img" />
               <img src="/static/images/bottom-sheet/style/arrow-scale-bs-close-header@2x.png" className="article__img-arrow bottom-sheet__img-arrow--2" />
             </div>
