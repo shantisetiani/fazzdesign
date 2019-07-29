@@ -46,6 +46,10 @@
                 "url": "/atom/tab"
             },
             {
+                "name": "Label",
+                "url": "/atom/label"
+            },
+            {
                 "name": "Card",
                 "url": "/atom/card"
             },

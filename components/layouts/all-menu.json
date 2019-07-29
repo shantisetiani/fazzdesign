@@ -66,8 +66,8 @@
                 "url": "/atom/app-bar"
             },
             {
-                "name": "Bottom Bar",
-                "url": "/atom/bottom-bar"
+                "name": "Bottom Navigation",
+                "url": "/atom/bottom-navigation"
             },
             {
                 "name": "Snackbar",

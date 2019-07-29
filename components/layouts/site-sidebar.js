@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
-import { request } from 'https';
 
 class SiteSidebar extends Component {
   constructor(props){
