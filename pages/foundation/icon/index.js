@@ -49,7 +49,7 @@ class Iconography extends Component {
             </div>
           </div>
           <p>They are using dynamic color from Fazz's brand product. If not, they must using white color in black background. Untuk warna icon bisa memakai warna dynamic brand product Fazz, atau memakai warna putih di background hitam</p>
-          <div className="fazz-row fazz-row-mobile-2 no-margin-mobile indent-40">
+          <div className="fazz-row fazz-row-mobile-2 indent-40 no-margin-mobile">
             <div className="fazz-col-4 no-padding text-center">
               <div className="icon-box">
                 <span className="icon-icon-black-white">

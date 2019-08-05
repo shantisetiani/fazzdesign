@@ -54,6 +54,14 @@
                 "url": "/atom/card"
             },
             {
+                "name": "App Bar",
+                "url": "/atom/app-bar"
+            },
+            {
+                "name": "Bottom Navigation",
+                "url": "/atom/bottom-navigation"
+            },
+            {
                 "name": "Snackbar",
                 "url": "/atom/snackbar"
             },

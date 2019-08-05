@@ -1,35 +1,48 @@
 import React, { Component } from 'react'
 
 class Style extends Component {
-  clearActiveCard = () => {
-    const cards = document.querySelectorAll('.status');
-    for(var i=0; i<cards.length; i++) {
-      cards[i].classList.remove('active');
-    }
+  scrollToCard = () => {
+    var cardContainer = document.getElementById("status_section");
+    cardContainer.scrollIntoView({behavior: 'smooth'});
   }
 
-  showSuccessStatus = () => {
+  clearActiveCard = () => {
+    const cards = document.querySelectorAll('.status');
+    const colorIndicator = document.querySelectorAll('.color-indicator');
+    for(var i=0; i<cards.length; i++) {
+      cards[i].classList.remove('active');
+      colorIndicator[i].classList.remove('active');
+    }
+
+    this.scrollToCard();
+  }
+
+  showSuccessStatus = (e) => {
     const card = document.querySelector('.status--success')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showProcessStatus = () => {
+  showProcessStatus = (e) => {
     const card = document.querySelector('.status--process')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showWaitingStatus = () => {
+  showWaitingStatus = (e) => {
     const card = document.querySelector('.status--waiting')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showFailedStatus = () => {
+  showFailedStatus = (e) => {
     const card = document.querySelector('.status--failed')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
   render() {
@@ -63,7 +76,7 @@ class Style extends Component {
           </div>
           <h3 className="fw-500 atom-sub-title">b. Scale</h3>
           <div className="indent-20">
-            <div className="anatomy-section status-section">
+            <div className="anatomy-section" id="status_section">
               <img src="/static/images/label/style/panel-label-status-success@2x.png" className="article__img style__img--2 status status--success active" />
               <img src="/static/images/label/style/panel-label-status-process@2x.png" className="article__img style__img--2 status status--process" />
               <img src="/static/images/label/style/panel-label-status-waiting@2x.png" className="article__img style__img--2 status status--waiting" />
@@ -81,7 +94,7 @@ class Style extends Component {
                 <img src="/static/images/label/style/arrow-color-level-emphasis@2x.png" className="label__img-arrow--6" />
               </div>
               <div className="fazz-col-4">
-                <img src="/static/images/label/style/status-success@2x.png" className="article__img color-indicator" onClick={this.showSuccessStatus} />
+                <img src="/static/images/label/style/status-success@2x.png" className="article__img color-indicator active" onClick={this.showSuccessStatus} />
                 <img src="/static/images/label/style/status-process@2x.png" className="article__img color-indicator" onClick={this.showProcessStatus} />
                 <img src="/static/images/label/style/status-waiting@2x.png" className="article__img color-indicator" onClick={this.showWaitingStatus} />
                 <img src="/static/images/label/style/status-failed@2x.png" className="article__img color-indicator" onClick={this.showFailedStatus} />

@@ -43,14 +43,17 @@ class Site extends Component {
         <SiteHeader />
         {
           isLoading ? 
-          <div className="loading">
-            <div></div>
-            <div></div>
+          <div className="cssload-wrap">
+            <div className="cssload-circle"></div>
+            <div className="cssload-circle"></div>
+            <div className="cssload-circle"></div>
+            <div className="cssload-circle"></div>
+            <div className="cssload-circle"></div>
           </div>
           : 
           <main className="flex fazz-main">
-            <SiteSidebar />
-            <div className={`fade-in fazz-content ${this.props.isHome ? 'fazz-content--home' : ''}`}>
+            {this.props.isHome ? '' : <SiteSidebar />}
+            <div className="fazz-content">
               {this.props.children}
             </div>
             <div className="overlay" onClick={ this.closeMenu }></div>

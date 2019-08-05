@@ -8,7 +8,7 @@ class Style extends Component {
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500" style={{ marginTop: '20px', marginBottom: '30px' }}>a. Anatomy</h3>
           <div className="indent-20">
             <div className="fazz-box-gray tab-style__box-gray--1 text-center" style={{ padding: '53px 48px 52px 49px' }}>

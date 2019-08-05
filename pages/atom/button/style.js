@@ -119,7 +119,7 @@ class Style extends Component {
           2. Use separator between stack and button.<br />
           3. if a button is stacked with another button, then they should have height 48px.
         </p>
-        <div className="margin-sm-mobile indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">Filled Button White Panel + Content Left and Right</h3>
           <p>
             Above is an example of how the button is combined with content

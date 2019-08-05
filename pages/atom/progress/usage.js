@@ -7,7 +7,7 @@ class Usage extends Component {
                 <p>
                     Progress Stepper and Progress Bar are components used to inform users about the status of ongoing processes. Some examples of progress bars are in onboarding and user registration
                 </p>
-                <p className="indent-40">
+                <p className="indent-40 margin-sm-mobile">
                     * Active bar #18BA62 Green<br />
                     * Inactive bar #E0E0E0 Grey
                 </p>

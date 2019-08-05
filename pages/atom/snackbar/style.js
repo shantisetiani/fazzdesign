@@ -5,7 +5,7 @@ class Style extends Component {
     return (
       <div className="atom-container">
         <h2 className="article__title-menu">High priority with button</h2>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">
@@ -27,7 +27,7 @@ class Style extends Component {
           </div>
         </div>
         <h2 className="article__title-menu">Low priority without a button</h2>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">

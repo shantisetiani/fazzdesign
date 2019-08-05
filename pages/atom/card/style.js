@@ -1,35 +1,48 @@
 import React, { Component } from 'react'
 
 class Style extends Component {
-  clearActiveCard = () => {
-    const cards = document.querySelectorAll('.user-card');
-    for(var i=0; i<cards.length; i++) {
-      cards[i].classList.remove('active');
-    }
+  scrollToCard = () => {
+    var cardContainer = document.getElementById("user_card_section");
+    cardContainer.scrollIntoView({behavior: 'smooth'});
   }
 
-  showActionCard = () => {
+  clearActiveCard = () => {
+    const cards = document.querySelectorAll('.user-card');
+    const colorIndicator = document.querySelectorAll('.color-indicator');
+    for(var i=0; i<cards.length; i++) {
+      cards[i].classList.remove('active');
+      colorIndicator[i].classList.remove('active');
+    }
+
+    this.scrollToCard();
+  }
+
+  showActionCard = (e) => {
     const card = document.querySelector('.user-card--action')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showSuccessCard = () => {
+  showSuccessCard = (e) => {
     const card = document.querySelector('.user-card--success')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showWaitingCard = () => {
+  showWaitingCard = (e) => {
     const card = document.querySelector('.user-card--waiting')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
-  showRejectCard = () => {
+  showRejectCard = (e) => {
     const card = document.querySelector('.user-card--reject')
     this.clearActiveCard();
     card.classList.add('active');
+    e.currentTarget.classList.add('active');
   }
 
   render() {
@@ -40,7 +53,7 @@ class Style extends Component {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla orci, ultricies a felis sit amet, molestie vestibulum ipsum. Mauris ut rhoncus diam. Phasellus sit amet tincidunt risus
         </p>
         <h3 className="atom-sub-title"><strong>A. Action General Card</strong></h3>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">
@@ -57,10 +70,10 @@ class Style extends Component {
           </div>
         </div>
         <h3 className="atom-sub-title"><strong>B. User Card</strong></h3>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
-            <div className="anatomy-section user-card-section">
+            <div className="anatomy-section" id="user_card_section">
               <img src="/static/images/card/style/panel-anatomy-user-card@2x.png" className="article__img style__img--3 user-card user-card--action active" />
               <img src="/static/images/card/style/card-verifikasi-sukses-green@2x.png" className="article__img style__img--3 user-card user-card--success" />
               <img src="/static/images/card/style/card-verifikasi-proses-yellow@2x.png" className="article__img style__img--3 user-card user-card--waiting" />
@@ -70,7 +83,7 @@ class Style extends Component {
             <p style={{ marginTop: '20px', marginBottom: '0' }}>Color indicator on the card</p>
             <div className="fazz-row fazz-row-mobile-2">
               <div className="fazz-col">
-                <img src="/static/images/card/style/action-button@2x.png" className="article__img color-indicator" onClick={this.showActionCard} />
+                <img src="/static/images/card/style/action-button@2x.png" className="article__img color-indicator active" onClick={this.showActionCard} />
               </div>
               <div className="fazz-col">
                 <img src="/static/images/card/style/success-information@2x.png" className="article__img color-indicator" onClick={this.showSuccessCard} />
@@ -92,7 +105,7 @@ class Style extends Component {
           </div>
         </div>
         <h3 className="atom-sub-title"><strong>C. Callouts</strong></h3>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">

@@ -8,7 +8,7 @@ class Style extends Component {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla orci, ultricies a felis sit amet, molestie vestibulum ipsum. Mauris ut rhoncus diam. Phasellus sit amet tincidunt risus
         </p>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">
@@ -28,7 +28,7 @@ class Style extends Component {
           </div>
         </div>
         <h2 className="article__title-menu">Bottom Sheet</h2>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Anatomy</h3>
           <div className="indent-20">
             <div className="anatomy-section">
@@ -46,7 +46,7 @@ class Style extends Component {
         </div>
         <h2 className="article__title-menu">Composite Usecase</h2>
         <p>The following is a combination of bottom sheet with other components</p>
-        <div className="indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">a. Bottom sheet to add new file </h3>
           <div className="indent-20">
             <p>

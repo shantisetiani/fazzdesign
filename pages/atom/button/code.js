@@ -91,7 +91,7 @@ class Code extends Component {
                 <button type="button" className="btn btn-primary"><strong>TEXT HERE</strong></button>	
             </div>	
         </div>
-        <div className="no-margin-mobile indent-40">
+        <div className="indent-40 no-margin-mobile ">
           <div className="code-title fw-500">
             <h3>
               Android

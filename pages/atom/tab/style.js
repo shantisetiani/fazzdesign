@@ -8,7 +8,7 @@ class Style extends Component {
         <p>
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
-        <div className="margin-sm-mobile indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">Anatomy</h3>
           <p>
             Filled button with white panel dipakai untuk kebutuhan high priority dan untuk button sendiri tidak memiliki shadow, dan harus fixed position.
@@ -31,7 +31,7 @@ class Style extends Component {
           Kind of filled button can used in some condition, shape also combine with another button
         </p>
         <h3 className="fw-500">Tab Text</h3>
-        <div className="margin-sm-mobile indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <h3 className="fw-500 atom-sub-title">Anatomy</h3>
           <div className="anatomy-section">
             <img src="/static/images/tab/style/panel-anatomy-general-text@2x.png" className="article__img style__img--3" />
@@ -54,7 +54,7 @@ class Style extends Component {
           </div>
         </div>
         <h2 className="article__title-menu">Composite Usecase</h2>
-        <div className="margin-sm-mobile indent-40">
+        <div className="indent-40 margin-sm-mobile">
           <div><img src="/static/images/tab/style/composite-tab-in-card@2x.png" className="article__img" /></div>
           <div><img src="/static/images/tab/style/composite-tab-on-content@2x.png" className="article__img" /></div>
         </div>
