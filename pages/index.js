@@ -15,10 +15,10 @@ class Homepage extends Component {
         </Link>
         <div className="flex home-hero">
           <div className="home-hero__text">
-            <h1><span>Building empowering style guides</span> with practical research</h1>
-            {/* <h2>
+            <h1><span className="underlined-text--1">Building empowering</span> <span className="underlined-text--2">style guides</span> with practical research</h1>
+            {<h2>
               <strong>A design system with values of Nature and Determinacy for better user experience of enterprise applications.</strong>
-            </h2> */}
+            </h2>}
           </div>
           {/* <img src="/static/images/design-system@2x.png" loading="lazy" alt="home-hero" /> */}
         </div>
