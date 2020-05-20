@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "next -p 4000",
-    "now-build": "next build"
+    "now-build": "next build",
+    "heroku-postbuild": "npm run now-build"
   }
 }
