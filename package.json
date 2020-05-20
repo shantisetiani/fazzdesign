@@ -8,7 +8,7 @@
     "react-router-dom": "^5.0.1"
   },
   "scripts": {
-    "start": "next -p 4000",
+    "start": "next dev",
     "dev": "next -p 4000",
     "now-build": "next build",
     "heroku-postbuild": "npm run now-build"
