@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import SiteMeta from './site-meta'
 import SiteHeader from './site-header'
 import SiteSidebar from './site-sidebar'
+import HomeHeader from './home-header'
 
 class Site extends Component {
   showOverlay = () => {
@@ -40,7 +41,7 @@ class Site extends Component {
           url={this.props.url}
           ogImage={this.props.ogImage}
         />
-        <SiteHeader />
+        {this.props.isHome ? <HomeHeader /> : <SiteHeader />}
         {
           isLoading ? 
           <div className="cssload-wrap">
@@ -53,7 +54,7 @@ class Site extends Component {
           : 
           <main className="flex fazz-main">
             {this.props.isHome ? '' : <SiteSidebar />}
-            <div className="fazz-content">
+            <div className={this.props.isHome ? 'fazz-home' : "fazz-content"}>
               {this.props.children}
             </div>
             <div className="overlay" onClick={ this.closeMenu }></div>

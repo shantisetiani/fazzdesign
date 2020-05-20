@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "gsap": "^3.2.6",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",

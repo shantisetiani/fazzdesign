@@ -1,77 +1,93 @@
 [
     {
-        "name": "Introduction",
+        "name": "Brand Story",
         "url": "/"
     },
     {
-        "name": "Foundation",
-        "url": "/foundation/color",
+        "name": "Brand Elements",
+        "url": "/brand-elements/brand-architecture",
         "children": [
             {
+                "name": "Brand Architecture",
+                "url": "/brand-elements/brand-architecture"
+            },
+            {
                 "name": "Color",
-                "url": "/foundation/color"
+                "url": "/brand-elements/color"
             },
             {
                 "name": "Typography",
-                "url": "/foundation/typography"
+                "url": "/brand-elements/typography"
             },
             {
                 "name": "Icon",
-                "url": "/foundation/icon"
+                "url": "/brand-elements/icon"
             },
             {
                 "name": "Illustration",
-                "url": "/foundation/illustration"
-            },
-            {
-                "name": "Layout",
-                "url": "/foundation/layout"
+                "url": "/brand-elements/illustration"
             },
             {
                 "name": "Writing Tone & Style",
-                "url": "/foundation/writing-tone-style"
+                "url": "/brand-elements/writing-tone-style"
+            },
+            {
+                "name": "Photography",
+                "url": "/brand-elements/photography"
+            },
+            {
+                "name": "Applications",
+                "url": "/brand-elements/applications"
             }
         ]
     },
     {
-        "name": "Atom",
-        "url": "/atom/button",
+        "name": "Design System",
+        "url": "/design-system/button",
         "children": [
             {
                 "name": "Button",
-                "url": "/atom/button"
+                "url": "/design-system/button"
             },
             {
                 "name": "Tab",
-                "url": "/atom/tab"
+                "url": "/design-system/tab"
+            },
+            {
+                "name": "Input",
+                "url": "/design-system/input"
             },
             {
                 "name": "Label",
-                "url": "/atom/label"
+                "url": "/design-system/label"
             },
             {
                 "name": "Card",
-                "url": "/atom/card"
+                "url": "/design-system/card"
             },
             {
                 "name": "App Bar",
-                "url": "/atom/app-bar"
+                "url": "/design-system/app-bar"
             },
             {
                 "name": "Bottom Navigation",
-                "url": "/atom/bottom-navigation"
+                "url": "/design-system/bottom-navigation"
             },
             {
                 "name": "Snackbar",
-                "url": "/atom/snackbar"
+                "url": "/design-system/snackbar"
             },
             {
                 "name": "Bottom Sheet",
-                "url": "/atom/bottom-sheet"
+                "url": "/design-system/bottom-sheet"
             },
             {
                 "name": "Progress",
-                "url": "/atom/progress"
+                "url": "/design-system/progress"
+            },
+            {
+                "name": "Layout",
+                "url": "/design-system/layout"
             }
         ]
     }

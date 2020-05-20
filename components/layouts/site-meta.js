@@ -34,6 +34,7 @@ const SiteMeta = props => (
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Roboto:300,400,500" rel="stylesheet" />
     <link rel="stylesheet" href="/static/css/icons.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="https://use.fontawesome.com/086f627bc4.js"></script>
   </Head>
 )
 
