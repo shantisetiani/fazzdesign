@@ -8,7 +8,7 @@
     "react-router-dom": "^5.0.1"
   },
   "scripts": {
-    "start": "next start -p $PORT",
+    "start": "next -p https://fazzdesign.herokuapp.com/",
     "dev": "next -p 4000",
     "now-build": "next build",
     "heroku-postbuild": "npm run now-build"
